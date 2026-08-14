@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-14T08:02:22Z",
-  "sourceCommit": "63639039b1574e761217efa35b568bb3986a2d30",
+  "generatedAt": "2026-08-14T09:36:56Z",
+  "sourceCommit": "4b00f03ebabc179a1e4fc678e11ec422866414bf",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -512,6 +512,30 @@
       "source": "revision-2026-content/lessons/lessons-2012.html"
     },
     {
+      "code": "2018",
+      "title": "2018 — Construction Materials Lab | REV2026",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2018/v1/2018.pdf",
+      "bytes": 196652,
+      "sha256": "97a150c8d795f24b47addace6a2178ab99b7891fbf6256e4d77ec3ad23f3c8fc",
+      "pages": 13,
+      "source": "revision-2026-content/lessons/lessons-2018.html"
+    },
+    {
+      "code": "2019",
+      "title": "2019 — Basic Surveying Lab | Polytechnic Handbook",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2019/v1/2019.pdf",
+      "bytes": 239977,
+      "sha256": "73b558083dc01418e6b2b73f43380526be0b486fb2bbfb2ef36f97a04570a29a",
+      "pages": 14,
+      "source": "revision-2026-content/lessons/lessons-2019.html"
+    },
+    {
       "code": "2021",
       "title": "Course 2021 — Engineering Materials and Measurements | REV2026 | POLY PMNA",
       "revision": "2026",
@@ -534,6 +558,18 @@
       "sha256": "ba2046313ec652410b8b9ec3168536aeeff5016f2fb410a890b516f354a107d1",
       "pages": 36,
       "source": "revision-2026-content/lessons/lessons-2022.html"
+    },
+    {
+      "code": "2028",
+      "title": "2028 — Materials and Measurements Laboratory",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2028/v1/2028.pdf",
+      "bytes": 447581,
+      "sha256": "6f809638fdc6c4f2fd7c12baa305a18174774f7bd8e1fe17fa489928a52b37e9",
+      "pages": 17,
+      "source": "revision-2026-content/lessons/lessons-2028.html"
     },
     {
       "code": "2031",
@@ -594,6 +630,30 @@
       "sha256": "c88bb824ff5329c8be43a8b5115ea8b6fb993778f4756f2df8633bf29d5c2f60",
       "pages": 32,
       "source": "revision-2026-content/lessons/lessons-2048.html"
+    },
+    {
+      "code": "2051",
+      "title": "2051 — Basic Electrical and Electronics Engineering",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2051/v1/2051.pdf",
+      "bytes": 260642,
+      "sha256": "625812e91a4331f5e8457ed217fc72719009ae97f34b1d1537dccd6321cc5939",
+      "pages": 14,
+      "source": "revision-2026-content/lessons/lessons-2051.html"
+    },
+    {
+      "code": "2071",
+      "title": "2071 — Fundamentals of Engineering Chemistry | Polytechnic Lesson",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2071/v1/2071.pdf",
+      "bytes": 314712,
+      "sha256": "13ab1d641bb62bb7484651f3732f9644b39cf6f12a650fda0e88997a04cfc84a",
+      "pages": 17,
+      "source": "revision-2026-content/lessons/lessons-2071.html"
     },
     {
       "code": "2131",

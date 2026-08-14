@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-14T08:02:22Z",
-  "sourceCommit": "63639039b1574e761217efa35b568bb3986a2d30",
+  "generatedAt": "2026-08-14T09:36:56Z",
+  "sourceCommit": "4b00f03ebabc179a1e4fc678e11ec422866414bf",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -174,6 +174,54 @@
       "sha256": "296c20a4cd0a6e5ab4c7839d21584fa8729be4c2cd16ba9b0ff84ca3a6a87719",
       "pages": 6,
       "source": "lessons/lessons-1149.html"
+    },
+    {
+      "code": "1251",
+      "title": "1251 — Basic Accounting | Polytechnic Lesson",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1251/v1/1251.pdf",
+      "bytes": 315980,
+      "sha256": "45250f8f6c515f0c1996e4756c4f783698bfaed65a7f7be17a6733a1775bdf1e",
+      "pages": 18,
+      "source": "lessons/lessons-1251.html"
+    },
+    {
+      "code": "1252",
+      "title": "1252 — Business Economics | Polytechnic Lesson",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1252/v1/1252.pdf",
+      "bytes": 313831,
+      "sha256": "7c7eb9d41e85db5e7e9edc44175dde66ba1898b894b27e378e864819438b27a2",
+      "pages": 18,
+      "source": "lessons/lessons-1252.html"
+    },
+    {
+      "code": "1253",
+      "title": "1253 — Business Studies | Polytechnic Lesson",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1253/v1/1253.pdf",
+      "bytes": 327061,
+      "sha256": "f32ef134c5a8677dde55c895eb886f933ff45cc8d23674d486812b9a6e378f6c",
+      "pages": 16,
+      "source": "lessons/lessons-1253.html"
+    },
+    {
+      "code": "1259",
+      "title": "1259 — Office Automation Software Lab | REV2021",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1259/v1/1259.pdf",
+      "bytes": 239619,
+      "sha256": "69a7fb3604dfcd5c39f174f579b22fd7fbf2df49267efde3cadd5ecbaf053c96",
+      "pages": 11,
+      "source": "lessons/lessons-1259.html"
     },
     {
       "code": "2001",
@@ -654,6 +702,18 @@
       "sha256": "ddea9fd0ff38b5b3fc8dfbbc86f81da1f19d0e7dc95a647a6759a460e0da2be9",
       "pages": 11,
       "source": "lessons/lessons-4006.html"
+    },
+    {
+      "code": "4007",
+      "title": "4007 — Minor Project | Commercial Practice",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4007/v1/4007.pdf",
+      "bytes": 217655,
+      "sha256": "1f6679db6080011baf44700b60f5d0ed4f092bafd318e396230548c487ac7f0b",
+      "pages": 13,
+      "source": "lessons/lessons-4007.html"
     },
     {
       "code": "4009",

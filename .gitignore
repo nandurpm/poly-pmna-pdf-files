@@ -1,0 +1,13 @@
+# Local staging and generated reports
+staging/
+uploads/
+backups/
+*.log
+*.tmp
+*.part
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key

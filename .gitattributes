@@ -1,0 +1,2 @@
+# Keep PDFs binary and prevent text normalization.
+*.pdf -text

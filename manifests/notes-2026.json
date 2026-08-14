@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-14T06:50:54Z",
-  "sourceCommit": "1570de69b52a40a3b9fa35333ebc9dcbfc2385e3",
+  "generatedAt": "2026-08-14T08:02:22Z",
+  "sourceCommit": "63639039b1574e761217efa35b568bb3986a2d30",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -620,6 +620,18 @@
       "source": "revision-2026-content/lessons/lessons-3001.html"
     },
     {
+      "code": "3009",
+      "title": "Course 3009 — Digital 101 | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/3009/v1/3009.pdf",
+      "bytes": 481847,
+      "sha256": "c534938e96257ac9ae6d2075935b7d784801973298a0bb3d184a740f1aa17599",
+      "pages": 11,
+      "source": "revision-2026-content/lessons/lessons-3009.html"
+    },
+    {
       "code": "3011",
       "title": "Course 3011 — Engineering Mechanics | REV2026 | POLY PMNA",
       "revision": "2026",
@@ -752,6 +764,18 @@
       "source": "revision-2026-content/lessons/lessons-4001.html"
     },
     {
+      "code": "4002",
+      "title": "Course 4002 — Career Readiness and Communication | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/4002/v1/4002.pdf",
+      "bytes": 480617,
+      "sha256": "2f4f785d23a49a003fba9be0c5339aabe9363d87c36b1b6d09a774fd082099f7",
+      "pages": 11,
+      "source": "revision-2026-content/lessons/lessons-4002.html"
+    },
+    {
       "code": "4011",
       "title": "Course 4011 — Design of Steel Structures | REV2026 | POLY PMNA",
       "revision": "2026",
@@ -822,6 +846,30 @@
       "sha256": "fd80c209e691d314b50d95b01596e86aae588d92c187a059d23d343ad5511aa7",
       "pages": 33,
       "source": "revision-2026-content/lessons/lessons-4041.html"
+    },
+    {
+      "code": "5007",
+      "title": "Course 5007 — Summer Internship | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5007/v1/5007.pdf",
+      "bytes": 482083,
+      "sha256": "656f9f5be19a71f1619bd44ae945fc4c8f12a493b2fdde131d197296284acefe",
+      "pages": 11,
+      "source": "revision-2026-content/lessons/lessons-5007.html"
+    },
+    {
+      "code": "5009",
+      "title": "Course 5009 — Major Project - Phase I | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5009/v1/5009.pdf",
+      "bytes": 479769,
+      "sha256": "c9bfbcb2c3932f6aff61d6d1c40a7f13f610ea4a3c2140077bff3df809d7f9e6",
+      "pages": 11,
+      "source": "revision-2026-content/lessons/lessons-5009.html"
     },
     {
       "code": "5011",
@@ -1134,6 +1182,18 @@
       "sha256": "0185a0d5c7fd801282cb05249604fc9d19003b481299bd54c8e180c619b3da2d",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-5051.html"
+    },
+    {
+      "code": "6009",
+      "title": "Course 6009 — Major Project - Phase II | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6009/v1/6009.pdf",
+      "bytes": 480394,
+      "sha256": "bf261f3f9156bcc51f2cbafdd88b8bd76f62b16dec6f483e4abc51109d3a1b01",
+      "pages": 11,
+      "source": "revision-2026-content/lessons/lessons-6009.html"
     },
     {
       "code": "6011T",

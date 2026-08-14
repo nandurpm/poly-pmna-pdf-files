@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-14T06:27:32Z",
-  "sourceCommit": "52100891097266773c72a194f684311053bc98d8",
+  "generatedAt": "2026-08-14T08:02:22Z",
+  "sourceCommit": "63639039b1574e761217efa35b568bb3986a2d30",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -356,6 +356,30 @@
       "source": "lessons/lessons-2049.html"
     },
     {
+      "code": "2131",
+      "title": "Course 2131 — Problem Solving and Programming | REV2021 | POLY PMNA",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2131/v1/2131.pdf",
+      "bytes": 481124,
+      "sha256": "837388464c3edd77aba6afb87b6f4bc404e3ed9e67e6db5f0a4ed98dd892684f",
+      "pages": 11,
+      "source": "lessons/lessons-2131.html"
+    },
+    {
+      "code": "2139",
+      "title": "Course 2139 — Problem Solving and Programming Lab | REV2021 | POLY PMNA",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2139/v1/2139.pdf",
+      "bytes": 480938,
+      "sha256": "1d6935eb19646f9aeae7b5fce25261a847f4ea4ee90d9126342c284c2105b136",
+      "pages": 11,
+      "source": "lessons/lessons-2139.html"
+    },
+    {
       "code": "3011",
       "title": "Course 3011 — Advanced Surveying | REV2021 | POLY PMNA",
       "revision": "2021",
@@ -620,6 +644,30 @@
       "source": "lessons/lessons-4001.html"
     },
     {
+      "code": "4006",
+      "title": "Course 4006 — Minor Project | REV2021 | POLY PMNA",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4006/v1/4006.pdf",
+      "bytes": 483009,
+      "sha256": "ddea9fd0ff38b5b3fc8dfbbc86f81da1f19d0e7dc95a647a6759a460e0da2be9",
+      "pages": 11,
+      "source": "lessons/lessons-4006.html"
+    },
+    {
+      "code": "4009",
+      "title": "Course 4009 — Minor Project | REV2021 | POLY PMNA",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4009/v1/4009.pdf",
+      "bytes": 482106,
+      "sha256": "a3eb538c3e1e625a62750ba29f579bfc335de67f8f03a3fd2dcf9095eb3a57b2",
+      "pages": 11,
+      "source": "lessons/lessons-4009.html"
+    },
+    {
       "code": "4011",
       "title": "Course 4011 — Geotechnical Engineering | REV2021 | POLY PMNA",
       "revision": "2021",
@@ -810,6 +858,18 @@
       "sha256": "67b354531305e6bdc29f89ca8fbb532abcbe887fed04edef8039a1ea8b8e19ed",
       "pages": 6,
       "source": "lessons/lessons-5001.html"
+    },
+    {
+      "code": "5002",
+      "title": "Course 5002 — Project Management and Software Engineering | REV2021 | POLY PMNA",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5002/v1/5002.pdf",
+      "bytes": 482496,
+      "sha256": "0e0fcd5c9bc327445bc1c56b148537555581c09e815c147fd5a247e2071ca719",
+      "pages": 11,
+      "source": "lessons/lessons-5002.html"
     },
     {
       "code": "5011",

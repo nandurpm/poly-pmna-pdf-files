@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-14T09:36:56Z",
-  "sourceCommit": "4b00f03ebabc179a1e4fc678e11ec422866414bf",
+  "generatedAt": "2026-08-14T09:41:18Z",
+  "sourceCommit": "927547abe95105a932df1cd139e463125b98000f",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -572,6 +572,18 @@
       "source": "revision-2026-content/lessons/lessons-2028.html"
     },
     {
+      "code": "2029",
+      "title": "2029 — Engineering Mechanics Lab | Rev 2026",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2029/v1/2029.pdf",
+      "bytes": 257519,
+      "sha256": "37fddda6099646de03990468ae9908258cc0a8d84b1f1690dbb62f49a4a35207",
+      "pages": 12,
+      "source": "revision-2026-content/lessons/lessons-2029.html"
+    },
+    {
       "code": "2031",
       "title": "Course 2031 — Elementary Concepts of Electrical &amp; Electronics Engineering | REV2026 | POLY PMNA",
       "revision": "2026",
@@ -594,6 +606,30 @@
       "sha256": "12489e3320e3311b8fb2981be03341ff531d6bf915b58e6d82f73d72273017b3",
       "pages": 33,
       "source": "revision-2026-content/lessons/lessons-2032.html"
+    },
+    {
+      "code": "2038",
+      "title": "2038 — Electrical and Electronics Practice Lab",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2038/v1/2038.pdf",
+      "bytes": 285674,
+      "sha256": "eb75d1e6adfc86b3a760743ca2d05d5c508b95c16716fec591023c34af38f6cf",
+      "pages": 13,
+      "source": "revision-2026-content/lessons/lessons-2038.html"
+    },
+    {
+      "code": "2039",
+      "title": "2039 — Fundamentals of Electrical Engineering Lab",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2039/v1/2039.pdf",
+      "bytes": 267655,
+      "sha256": "76fe35960cbd23368967f3c7e683d4d5c27480d4ae7aeeca57e96cdfcd27065c",
+      "pages": 13,
+      "source": "revision-2026-content/lessons/lessons-2039.html"
     },
     {
       "code": "2041",
@@ -630,6 +666,18 @@
       "sha256": "c88bb824ff5329c8be43a8b5115ea8b6fb993778f4756f2df8633bf29d5c2f60",
       "pages": 32,
       "source": "revision-2026-content/lessons/lessons-2048.html"
+    },
+    {
+      "code": "2049",
+      "title": "2049 — Electronic Devices and Applications Lab",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2049/v1/2049.pdf",
+      "bytes": 268511,
+      "sha256": "537e306b3468f78c0415560225bb67f9b058f8ed1ed900a98e9afdff9188600c",
+      "pages": 14,
+      "source": "revision-2026-content/lessons/lessons-2049.html"
     },
     {
       "code": "2051",

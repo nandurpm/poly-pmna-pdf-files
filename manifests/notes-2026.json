@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-14T09:56:48Z",
-  "sourceCommit": "e49e8964fdec5e4660b72424ae1319975f155692",
+  "generatedAt": "2026-08-14T17:04:50Z",
+  "sourceCommit": "fbbf3a6c11e0db1d0ff54148b5d31d596be81bf2",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -350,8 +350,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2001A/v1/2001A.pdf",
-      "bytes": 1101584,
-      "sha256": "75d9a63d1eed61527f40b71d9ccf54127f0e52124185d1460843daeb31e4a5cb",
+      "bytes": 1104710,
+      "sha256": "f9340e91d31ea89fb60014d3bdb62716454b57d124afdaab443c2d338ef3f9fc",
       "pages": 31,
       "source": "revision-2026-content/lessons/lessons-2001A.html"
     },
@@ -374,8 +374,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2001C/v1/2001C.pdf",
-      "bytes": 596149,
-      "sha256": "429162f57039ad2b8badeab47da5d65cce209aa7fc7762431217235a9339675f",
+      "bytes": 600207,
+      "sha256": "b35e9d7cc9116e355d1449eb58d3d80ad87f6ab5a5ce59cbaf4b836e6e5ce6a8",
       "pages": 14,
       "source": "revision-2026-content/lessons/lessons-2001C.html"
     },
@@ -458,8 +458,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2005/v1/2005.pdf",
-      "bytes": 1549489,
-      "sha256": "e2e4c914b40bcaa0f27fb0e84f98e0121e16d2e7bfb3b05bc6ab255351d1a6b9",
+      "bytes": 1552031,
+      "sha256": "9d18f8ec5dae50e1b9f31c41f676475b7e4cd1e3c68a1a8414c55f0dd4341f6a",
       "pages": 54,
       "source": "revision-2026-content/lessons/lessons-2005.html"
     },
@@ -714,6 +714,42 @@
       "sha256": "9f1a24b7dc85734837a1dd4209bed565b35297315e6d8aeaede93714b2f14763",
       "pages": 45,
       "source": "revision-2026-content/lessons/lessons-2131.html"
+    },
+    {
+      "code": "2132",
+      "title": "2132 — Programming in C | Revision 2026",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2132/v1/2132.pdf",
+      "bytes": 602403,
+      "sha256": "34f5525f286b66661602ad7620a02a30bc34d098f99673732aafef18d6238f5f",
+      "pages": 17,
+      "source": "revision-2026-content/lessons/lessons-2132.html"
+    },
+    {
+      "code": "2182",
+      "title": "2182 — Building Materials & Technology | Revision 2026",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2182/v1/2182.pdf",
+      "bytes": 541669,
+      "sha256": "a913b895d85d8613e68100454d5894e1675c01fb65514f5b020aa69d026575a0",
+      "pages": 17,
+      "source": "revision-2026-content/lessons/lessons-2182.html"
+    },
+    {
+      "code": "2183",
+      "title": "2183 — History of Architecture — I | Revision 2026",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2183/v1/2183.pdf",
+      "bytes": 504808,
+      "sha256": "37a23f7e7950c55c3f7ca9a93fc416a3d13cdfb08d6558af27de50f5f249d15f",
+      "pages": 16,
+      "source": "revision-2026-content/lessons/lessons-2183.html"
     },
     {
       "code": "3001",

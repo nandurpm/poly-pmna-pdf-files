@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T05:52:00Z",
-  "sourceCommit": "07c5334ff7c2be522a5603e25a15d78bd18a4813",
+  "generatedAt": "2026-08-15T07:57:52Z",
+  "sourceCommit": "40a6b8b117d74bbfe7daaf9921f00f61cb993a24",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -894,6 +894,18 @@
       "sha256": "7b86c70d2c3c0ffb4483334d42d0a9b17b8c61a67ae08a4f0cfe4971ca7e5abf",
       "pages": 52,
       "source": "revision-2026-content/lessons/lessons-2183.html"
+    },
+    {
+      "code": "2251",
+      "title": "2251 — AI for Business",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2251/v1/2251.pdf",
+      "bytes": 1425015,
+      "sha256": "0708328c0a21483f178f491f5ea96c544d4942f558ce5427704f73780b45e549",
+      "pages": 41,
+      "source": "revision-2026-content/lessons/lessons-2251.html"
     },
     {
       "code": "2252",

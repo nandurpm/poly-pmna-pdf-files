@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:32:12Z",
-  "sourceCommit": "6980cdbb58ac97a1b7254cda0db30cb1245e1bcd",
+  "generatedAt": "2026-08-15T08:44:06Z",
+  "sourceCommit": "687196dd0d1eb8dd9a166fe2aa6ee55eaf88f391",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3246,6 +3246,18 @@
       "sha256": "bf0ecf5e77f3fa12cc752cf47f94916c45fad1a3df13184535fd5b26b7edf089",
       "pages": 62,
       "source": "revision-2026-content/lessons/lessons-5381.html"
+    },
+    {
+      "code": "5411",
+      "title": "5411 — Electric Vehicle Technology &amp; Design Considerations",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5411/v1/5411.pdf",
+      "bytes": 1153295,
+      "sha256": "2cc1f5adb11944c86d5e82095c622926cd4e21db31db442a15f03a9dae362ea2",
+      "pages": 36,
+      "source": "revision-2026-content/lessons/lessons-5411.html"
     },
     {
       "code": "5421",

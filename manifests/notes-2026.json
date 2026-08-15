@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T09:14:07Z",
-  "sourceCommit": "8363a58511b1f548ae0f09e2cbe1b0fa5b6ae2c4",
+  "generatedAt": "2026-08-15T09:16:01Z",
+  "sourceCommit": "b17e62b3a7dbaa6f0ea16c433212566eab63f94a",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3762,6 +3762,18 @@
       "sha256": "7648afae92895bdb9117c65d62852cdc9edaae010837842cc8181ca616eb2323",
       "pages": 82,
       "source": "revision-2026-content/lessons/lessons-6051A.html"
+    },
+    {
+      "code": "6072D",
+      "title": "6072D — Disaster Management (CH)",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6072D/v1/6072D.pdf",
+      "bytes": 1516299,
+      "sha256": "b1762c9defea2212c3971b78795115cfa492781a4435daffd10ce65ae8cd035b",
+      "pages": 68,
+      "source": "revision-2026-content/lessons/lessons-6072D.html"
     },
     {
       "code": "6142",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:49:45Z",
-  "sourceCommit": "df78586ae197620a1d8cfc6d42696c463efe536a",
+  "generatedAt": "2026-08-15T09:14:07Z",
+  "sourceCommit": "8363a58511b1f548ae0f09e2cbe1b0fa5b6ae2c4",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3750,6 +3750,18 @@
       "sha256": "7dee1b3e495510777b5539138a073eabfc09db4ac50c90c5724f0613c9f9f938",
       "pages": 29,
       "source": "revision-2026-content/lessons/lessons-6024D.html"
+    },
+    {
+      "code": "6051A",
+      "title": "6051A — Electric and Hybrid Vehicles",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6051A/v1/6051A.pdf",
+      "bytes": 1801085,
+      "sha256": "7648afae92895bdb9117c65d62852cdc9edaae010837842cc8181ca616eb2323",
+      "pages": 82,
+      "source": "revision-2026-content/lessons/lessons-6051A.html"
     },
     {
       "code": "6142",

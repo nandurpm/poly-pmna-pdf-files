@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T09:16:01Z",
-  "sourceCommit": "b17e62b3a7dbaa6f0ea16c433212566eab63f94a",
+  "generatedAt": "2026-08-15T09:18:09Z",
+  "sourceCommit": "3edab3df19d578716637f0ec2fbaebeb041215e0",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3954,6 +3954,18 @@
       "sha256": "ba0bf212520db1629f335d668d9a4e1efe2d2ffb3757eafa4c20c6159aa9a507",
       "pages": 36,
       "source": "revision-2026-content/lessons/lessons-6492C.html"
+    },
+    {
+      "code": "6501C",
+      "title": "6501C — Fundamentals of Photovoltaics and solar cell technology",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6501C/v1/6501C.pdf",
+      "bytes": 1532608,
+      "sha256": "37b747c136e9aaa98c16b04065e30856600db0aa68c29623b93c7e4103acd933",
+      "pages": 69,
+      "source": "revision-2026-content/lessons/lessons-6501C.html"
     }
   ]
 }

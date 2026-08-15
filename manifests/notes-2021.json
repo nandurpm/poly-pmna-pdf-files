@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-15T04:22:57Z",
-  "sourceCommit": "a26a3a27ebf95fba03fffd2ac358b38bdb64810d",
+  "generatedAt": "2026-08-15T07:35:49Z",
+  "sourceCommit": "6c7845bb825fa0d578b99cc5814e50589fd8df99",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -210,6 +210,18 @@
       "sha256": "2e43510f3d30722b0d16e37cb8ea16174c14c337585a933a6c222e3b8442f17c",
       "pages": 15,
       "source": "lessons/lessons-1253.html"
+    },
+    {
+      "code": "1257",
+      "title": "1257 — Introduction to Python",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1257/v1/1257.pdf",
+      "bytes": 1037689,
+      "sha256": "3c647c63b748c40fc49c9731afc7f92c599110b9af2ab5b7e13e71431afa7b06",
+      "pages": 30,
+      "source": "lessons/lessons-1257.html"
     },
     {
       "code": "1259",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:10:34Z",
-  "sourceCommit": "979f59990016409631284c3021f4f252433d70ea",
+  "generatedAt": "2026-08-15T08:13:00Z",
+  "sourceCommit": "95295560b5de508d8e7fcb57583f25b8a896a2bd",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1374,6 +1374,18 @@
       "sha256": "e0bbfbbbb6e559f40749244711c626ce4c843fc14d76be4ffddcd3a77beba6b1",
       "pages": 61,
       "source": "revision-2026-content/lessons/lessons-3142.html"
+    },
+    {
+      "code": "3148",
+      "title": "3148 — Typewriting English 30 wpm",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/3148/v1/3148.pdf",
+      "bytes": 630524,
+      "sha256": "37aaf4b9609739227a897f717e5931e2d0d83fbcc6291f26f21e6db3b7fd4ec3",
+      "pages": 23,
+      "source": "revision-2026-content/lessons/lessons-3148.html"
     },
     {
       "code": "3181",

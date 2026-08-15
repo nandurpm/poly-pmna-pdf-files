@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T07:57:52Z",
-  "sourceCommit": "40a6b8b117d74bbfe7daaf9921f00f61cb993a24",
+  "generatedAt": "2026-08-15T07:59:15Z",
+  "sourceCommit": "72abbe98a7547741eaa056f325b2e70536c461f9",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -930,6 +930,18 @@
       "sha256": "a267736f8ccddc5b9e557e4f362f018de8f0574332469684b2cc68efb93619ce",
       "pages": 75,
       "source": "revision-2026-content/lessons/lessons-2253.html"
+    },
+    {
+      "code": "2259",
+      "title": "2259 — Office Automation Software Lab",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2259/v1/2259.pdf",
+      "bytes": 1459140,
+      "sha256": "9ba3f3dceb4e5a09a8509cad1d84a2dd0608e4418752edc23cdf00721eec633b",
+      "pages": 42,
+      "source": "revision-2026-content/lessons/lessons-2259.html"
     },
     {
       "code": "2331",

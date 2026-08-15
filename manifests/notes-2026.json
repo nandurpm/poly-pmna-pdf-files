@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:44:06Z",
-  "sourceCommit": "687196dd0d1eb8dd9a166fe2aa6ee55eaf88f391",
+  "generatedAt": "2026-08-15T08:45:47Z",
+  "sourceCommit": "f358bcdd15005f30d7022890c61745e183d9ad61",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -2838,6 +2838,18 @@
       "sha256": "7fd9e197d42f73004f68bcc0ecd66a1b76cd21398ad1e58e8d8153dabe8297ef",
       "pages": 57,
       "source": "revision-2026-content/lessons/lessons-5123C.html"
+    },
+    {
+      "code": "5131",
+      "title": "5131 — Embedded System and Real time Operating System",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5131/v1/5131.pdf",
+      "bytes": 1409692,
+      "sha256": "cc48d32f1c4321a84b40963c46cfbf231031825b27f131f43d273b377d49ef15",
+      "pages": 40,
+      "source": "revision-2026-content/lessons/lessons-5131.html"
     },
     {
       "code": "5132",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:14:35Z",
-  "sourceCommit": "d1f4f2baac8b060f94bb4c1078c67c59c2b0b7e9",
+  "generatedAt": "2026-08-15T08:22:46Z",
+  "sourceCommit": "2930c53344985ccaec641a30e40338e45ad1aae8",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1986,6 +1986,18 @@
       "sha256": "5086a52c1945511ccd4d11aace6e4249c6d2a8443072ecdea75fc07d5f487525",
       "pages": 57,
       "source": "revision-2026-content/lessons/lessons-4371.html"
+    },
+    {
+      "code": "4411",
+      "title": "4411 — Automobile Chassis",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/4411/v1/4411.pdf",
+      "bytes": 775257,
+      "sha256": "b94f38b44197b689f0fb157fa5b9f8985da29fe6f25b434af272a46a2b357506",
+      "pages": 32,
+      "source": "revision-2026-content/lessons/lessons-4411.html"
     },
     {
       "code": "4421",

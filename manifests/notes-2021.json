@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-15T07:44:00Z",
-  "sourceCommit": "6089a70bc965602d6f340228503ebdee46ef5e42",
+  "generatedAt": "2026-08-15T07:45:55Z",
+  "sourceCommit": "f2fa73d94b658c091cfed8be4f9d7f1e4d087a71",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -462,6 +462,18 @@
       "sha256": "fe3e33fa1cf30127c3c03ba56892ffa5c730135a040610f03346540a854fb1a5",
       "pages": 35,
       "source": "lessons/lessons-2181.html"
+    },
+    {
+      "code": "2371",
+      "title": "2371 — Foundations of Robotics",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2371/v1/2371.pdf",
+      "bytes": 1439700,
+      "sha256": "6876840b8e5311fe9664656c714b6d548999578a453777fd37fedcdb557455c5",
+      "pages": 44,
+      "source": "lessons/lessons-2371.html"
     },
     {
       "code": "3011",

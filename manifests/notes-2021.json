@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-15T07:37:19Z",
-  "sourceCommit": "27dbbd4451cd087b064a1f274cbc4a35d4f27676",
+  "generatedAt": "2026-08-15T07:44:00Z",
+  "sourceCommit": "6089a70bc965602d6f340228503ebdee46ef5e42",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -450,6 +450,18 @@
       "sha256": "ad8887c29ef9a939dcd7f675930114b047c0e191e3124ea2cea8251cd58debba",
       "pages": 11,
       "source": "lessons/lessons-2139.html"
+    },
+    {
+      "code": "2181",
+      "title": "2181 — Basic Architectural Drawing",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2181/v1/2181.pdf",
+      "bytes": 1189263,
+      "sha256": "fe3e33fa1cf30127c3c03ba56892ffa5c730135a040610f03346540a854fb1a5",
+      "pages": 35,
+      "source": "lessons/lessons-2181.html"
     },
     {
       "code": "3011",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:13:00Z",
-  "sourceCommit": "95295560b5de508d8e7fcb57583f25b8a896a2bd",
+  "generatedAt": "2026-08-15T08:14:35Z",
+  "sourceCommit": "d1f4f2baac8b060f94bb4c1078c67c59c2b0b7e9",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1374,6 +1374,18 @@
       "sha256": "e0bbfbbbb6e559f40749244711c626ce4c843fc14d76be4ffddcd3a77beba6b1",
       "pages": 61,
       "source": "revision-2026-content/lessons/lessons-3142.html"
+    },
+    {
+      "code": "3143",
+      "title": "3143 — Auditing",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/3143/v1/3143.pdf",
+      "bytes": 678618,
+      "sha256": "bafbaa7ffc682c94a75e042e7b5c6d841fe1c1d2b506bc92954d238412a22c55",
+      "pages": 26,
+      "source": "revision-2026-content/lessons/lessons-3143.html"
     },
     {
       "code": "3148",

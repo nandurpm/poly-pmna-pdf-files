@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T07:59:15Z",
-  "sourceCommit": "72abbe98a7547741eaa056f325b2e70536c461f9",
+  "generatedAt": "2026-08-15T08:10:34Z",
+  "sourceCommit": "979f59990016409631284c3021f4f252433d70ea",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1338,6 +1338,18 @@
       "sha256": "f77c683b5dafdea3201cb899e656ab444457b44e113a10cceb5ce4bbce12e167",
       "pages": 68,
       "source": "revision-2026-content/lessons/lessons-3131.html"
+    },
+    {
+      "code": "3134",
+      "title": "3134 — Digital Computer Fundamentals",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/3134/v1/3134.pdf",
+      "bytes": 704696,
+      "sha256": "c60254c199e4475e04b460d19525fff7c6d46742404782e2bb03313e5f4830d0",
+      "pages": 24,
+      "source": "revision-2026-content/lessons/lessons-3134.html"
     },
     {
       "code": "3141",

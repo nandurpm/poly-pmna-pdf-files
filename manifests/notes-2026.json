@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T10:58:49Z",
-  "sourceCommit": "2f04f4cfe3a25325f9425de4bfae329fbf0af0da",
+  "generatedAt": "2026-08-15T11:20:20Z",
+  "sourceCommit": "d365a1b94fdb1dca4ccbd58edd9854a21621d965",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3986,9 +3986,9 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6501C/v1/6501C.pdf",
-      "bytes": 1946036,
-      "sha256": "0e911d6a5793875b5fc7e42c8069c18eb9feb2a50ba54929abd11366317cda8a",
-      "pages": 101,
+      "bytes": 3099448,
+      "sha256": "2053309d2ce88f7f084fa972952547be3a1f12c08ca6cf0fe8813ea4685fac15",
+      "pages": 231,
       "source": "revision-2026-content/lessons/lessons-6501C.html"
     }
   ]

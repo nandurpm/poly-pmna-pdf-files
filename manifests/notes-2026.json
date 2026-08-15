@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:45:47Z",
-  "sourceCommit": "f358bcdd15005f30d7022890c61745e183d9ad61",
+  "generatedAt": "2026-08-15T08:49:45Z",
+  "sourceCommit": "df78586ae197620a1d8cfc6d42696c463efe536a",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3474,6 +3474,18 @@
       "sha256": "f775f792a14a2fc9406df33fa6693cd4f3932c4920710a092e0c529e2654597e",
       "pages": 53,
       "source": "revision-2026-content/lessons/lessons-5493C.html"
+    },
+    {
+      "code": "5493D",
+      "title": "5493D — VLSI Testing",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5493D/v1/5493D.pdf",
+      "bytes": 1134658,
+      "sha256": "15014b54dba8f2e6b5be887455679fde6f77b1b784d81ab7b2f942093d80f72d",
+      "pages": 35,
+      "source": "revision-2026-content/lessons/lessons-5493D.html"
     },
     {
       "code": "5501",

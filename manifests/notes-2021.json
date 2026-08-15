@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-15T07:35:49Z",
-  "sourceCommit": "6c7845bb825fa0d578b99cc5814e50589fd8df99",
+  "generatedAt": "2026-08-15T07:37:19Z",
+  "sourceCommit": "27dbbd4451cd087b064a1f274cbc4a35d4f27676",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -234,6 +234,18 @@
       "sha256": "229aa5acf64291ac1273d57937f00d5cfbe2782f04be106385e883d7145de7d5",
       "pages": 9,
       "source": "lessons/lessons-1259.html"
+    },
+    {
+      "code": "1479",
+      "title": "1479 — House Keeping Management Practical 1",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1479/v1/1479.pdf",
+      "bytes": 447628,
+      "sha256": "386dada95ba3f5cdf70fc2b79150008c37efcfc3acd40b4bfd57149b50bd8e40",
+      "pages": 13,
+      "source": "lessons/lessons-1479.html"
     },
     {
       "code": "2001",

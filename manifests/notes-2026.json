@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:22:46Z",
-  "sourceCommit": "2930c53344985ccaec641a30e40338e45ad1aae8",
+  "generatedAt": "2026-08-15T08:24:46Z",
+  "sourceCommit": "9618ed842bd0a2b0209e18e15c35b7b442c39fdc",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1962,6 +1962,18 @@
       "sha256": "d8b2595c3574308a8e964092d4088e9108d09cb54d46b709fe8822246657fcfb",
       "pages": 49,
       "source": "revision-2026-content/lessons/lessons-4331.html"
+    },
+    {
+      "code": "4339",
+      "title": "4339 — Industry 4.0",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/4339/v1/4339.pdf",
+      "bytes": 715794,
+      "sha256": "7503df307fd32658403463e912369a5b9fb8d5434c7f415bc3ea79e81f25c22a",
+      "pages": 28,
+      "source": "revision-2026-content/lessons/lessons-4339.html"
     },
     {
       "code": "4341",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T09:18:09Z",
-  "sourceCommit": "3edab3df19d578716637f0ec2fbaebeb041215e0",
+  "generatedAt": "2026-08-15T09:24:09Z",
+  "sourceCommit": "10b9d556b326d99618d0cb7788a675bd2e47bf61",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3774,6 +3774,18 @@
       "sha256": "b1762c9defea2212c3971b78795115cfa492781a4435daffd10ce65ae8cd035b",
       "pages": 68,
       "source": "revision-2026-content/lessons/lessons-6072D.html"
+    },
+    {
+      "code": "6141",
+      "title": "6141 — Shorthand English (Speed &amp; Theory) 120 wpm",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6141/v1/6141.pdf",
+      "bytes": 1263453,
+      "sha256": "b5384cb10cb27fb28e0ef693f871dd6c09f1aeb79283043180fc67b5ce6e6543",
+      "pages": 55,
+      "source": "revision-2026-content/lessons/lessons-6141.html"
     },
     {
       "code": "6142",

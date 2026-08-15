@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:30:46Z",
-  "sourceCommit": "57900f0c6a6db87c4ea365566da67b86b0b17e35",
+  "generatedAt": "2026-08-15T08:32:12Z",
+  "sourceCommit": "6980cdbb58ac97a1b7254cda0db30cb1245e1bcd",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1902,6 +1902,18 @@
       "sha256": "77cc9c80faeba802b2165a90f368fa451d7e4b4025d42945da0851035fb10106",
       "pages": 52,
       "source": "revision-2026-content/lessons/lessons-4241.html"
+    },
+    {
+      "code": "4242",
+      "title": "4242 — Therapeutic Equipment",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/4242/v1/4242.pdf",
+      "bytes": 708806,
+      "sha256": "325e3e197d8783697a75635e103dab5b06b3c02e0e9a527c2451c526aed433f9",
+      "pages": 26,
+      "source": "revision-2026-content/lessons/lessons-4242.html"
     },
     {
       "code": "4251",

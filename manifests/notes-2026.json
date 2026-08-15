@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T09:24:09Z",
-  "sourceCommit": "10b9d556b326d99618d0cb7788a675bd2e47bf61",
+  "generatedAt": "2026-08-15T09:25:42Z",
+  "sourceCommit": "ac6b83e51546d76cea9817fa75fa2853ba183c30",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -3630,6 +3630,18 @@
       "sha256": "d1b633bc1f325d9b478c03309727db42153b2dc634737ae8ab4cf9404a771d3b",
       "pages": 29,
       "source": "revision-2026-content/lessons/lessons-6014D.html"
+    },
+    {
+      "code": "6021A",
+      "title": "6021A — Mechatronics",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6021A/v1/6021A.pdf",
+      "bytes": 1956204,
+      "sha256": "de055f8cadb46d20c65ee782a67bd25b75762a2618caafabd315b7a64c00ed4e",
+      "pages": 89,
+      "source": "revision-2026-content/lessons/lessons-6021A.html"
     },
     {
       "code": "6021T",

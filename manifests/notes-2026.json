@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-15T08:24:46Z",
-  "sourceCommit": "9618ed842bd0a2b0209e18e15c35b7b442c39fdc",
+  "generatedAt": "2026-08-15T08:30:46Z",
+  "sourceCommit": "57900f0c6a6db87c4ea365566da67b86b0b17e35",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -1986,6 +1986,18 @@
       "sha256": "54cf05e8661998d50b489a63b1fa42bd69df085678e2486f431bb84c07557250",
       "pages": 63,
       "source": "revision-2026-content/lessons/lessons-4341.html"
+    },
+    {
+      "code": "4342",
+      "title": "4342 — Machine Learning and Neural Network",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/4342/v1/4342.pdf",
+      "bytes": 814525,
+      "sha256": "7b26f27ce0be072cc4cb514e39a48a53073523516de2e83590499e4a11c68a3d",
+      "pages": 29,
+      "source": "revision-2026-content/lessons/lessons-4342.html"
     },
     {
       "code": "4371",

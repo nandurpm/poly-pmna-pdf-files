@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:54:29Z",
-  "sourceCommit": "b6d6f99c298f2a83410a1a64c7e969a1dac5c41f",
+  "generatedAt": "2026-08-18T09:56:12Z",
+  "sourceCommit": "cfec3bdd88689f0916511ff856d8035bf8ae0856",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4290,6 +4290,18 @@
       "sha256": "2c3e0a660cfaa638c8a6674e3311fba8853f5c33826f6d2750c90d708dca34c9",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6044C.html"
+    },
+    {
+      "code": "6044D",
+      "title": "Course 6044D — Healthcare Electronics | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6044D/v1/6044D.pdf",
+      "bytes": 957801,
+      "sha256": "0cfc834fb2c9ac36bc8a5185d267eb409239ba302f2b8732aac06661e99173b6",
+      "pages": 28,
+      "source": "revision-2026-content/lessons/lessons-6044D.html"
     },
     {
       "code": "6051A",

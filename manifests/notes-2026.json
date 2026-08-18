@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:55:44Z",
-  "sourceCommit": "42af1521c97c916b041dbfceb23987daf885a578",
+  "generatedAt": "2026-08-18T09:44:15Z",
+  "sourceCommit": "ecacc96175dcf848347f36d6bafe3924974db4c5",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -2433,14 +2433,14 @@
     },
     {
       "code": "5013",
-      "title": "Course 5013 — Wastewater Engineering | REV2026 | POLY PMNA",
+      "title": "Course 5013 — Hydraulics &amp; Irrigation Engineering | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5013/v1/5013.pdf",
-      "bytes": 1035621,
-      "sha256": "db8a3b415e0b8d5d0fffa8842468c210bd721029fb5482e07695040f74312419",
-      "pages": 33,
+      "bytes": 949846,
+      "sha256": "62e1c40f5d9ee11b133342c7c0088f971cd7fa04094a3454082aee88bd888818",
+      "pages": 27,
       "source": "revision-2026-content/lessons/lessons-5013.html"
     },
     {

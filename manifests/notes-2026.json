@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:39:37Z",
-  "sourceCommit": "01f97e6170254805f75bd490b8285eaf968e310d",
+  "generatedAt": "2026-08-18T08:41:32Z",
+  "sourceCommit": "83acb6e7dc102baa5c761b09b77792b5ba17d141",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4218,6 +4218,18 @@
       "sha256": "80dec0d2660c48a06bee916bb67acb16890b43c5ce9c504187d3d61354683dad",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6034C.html"
+    },
+    {
+      "code": "6034D",
+      "title": "Course 6034D — Electric Vehicles and Traction | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6034D/v1/6034D.pdf",
+      "bytes": 952641,
+      "sha256": "0cd7040949409e26c53d20e656313158ae13745279911b8c240220e4eb05e95a",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6034D.html"
     },
     {
       "code": "6051A",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-17T19:36:07Z",
-  "sourceCommit": "5d6c44b96d799099f4855f57a6956760dd4c8551",
+  "generatedAt": "2026-08-18T08:27:12Z",
+  "sourceCommit": "4feb71073c169d59a57b0160c90105336fbb0789",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4146,6 +4146,18 @@
       "sha256": "28a75c1ffae92c418e53e156f0b66fd686354036b17b29dbcc3bfb909d1f2beb",
       "pages": 29,
       "source": "revision-2026-content/lessons/lessons-6024D.html"
+    },
+    {
+      "code": "6031T",
+      "title": "Course 6031T — Microcontroller and PLC | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6031T/v1/6031T.pdf",
+      "bytes": 954254,
+      "sha256": "70be69c36cc8d5d173312ee66e14e67a7b5b65f3a59205a0a5c5c9ec5d6fb514",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6031T.html"
     },
     {
       "code": "6051A",

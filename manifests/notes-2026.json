@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:50:28Z",
-  "sourceCommit": "49cd587af047ec74b9856277434f19a3314b7855",
+  "generatedAt": "2026-08-18T09:52:15Z",
+  "sourceCommit": "ef85971f06300c5d25ed0d6f1e949638b9a53d03",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4269,14 +4269,14 @@
     },
     {
       "code": "6044B",
-      "title": "Course 6044B — Bio-medical Electronics | REV2026 | POLY PMNA",
+      "title": "Course 6044B — Modern Electronics | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6044B/v1/6044B.pdf",
-      "bytes": 958814,
-      "sha256": "ba8c397856d500d2ca577c2816d7d4240daa16de5e842f2b5659cbb99cf6ff25",
-      "pages": 27,
+      "bytes": 961532,
+      "sha256": "62522445593cca52f03bd44f0899d3888491cf5ae2cc5578bbd250848b5b9ff8",
+      "pages": 28,
       "source": "revision-2026-content/lessons/lessons-6044B.html"
     },
     {

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T10:44:54Z",
-  "sourceCommit": "779b472b19470252c8a74c53b9008e18865a2e28",
+  "generatedAt": "2026-08-18T10:46:32Z",
+  "sourceCommit": "fd618131e559c53a4b7e15c967154664b1e730db",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4185,13 +4185,13 @@
     },
     {
       "code": "6033C",
-      "title": "Course 6033C — Industrial Drives and Control | REV2026 | POLY PMNA",
+      "title": "Course 6033C — Inductrial Drives and Control | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6033C/v1/6033C.pdf",
-      "bytes": 951719,
-      "sha256": "5f69431d3f0da505a38d1f3a2d3b3d3924abc8e23f28c5447195c00a2672f44c",
+      "bytes": 951720,
+      "sha256": "784b51a8e228dfdf2ac9a83ea3b57f80863bc07ac1b95811ae844610c33f9fe9",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6033C.html"
     },

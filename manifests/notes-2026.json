@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:53:02Z",
-  "sourceCommit": "1e79b10d6978a4729c7ff865338f42d036e0a20f",
+  "generatedAt": "2026-08-18T08:55:44Z",
+  "sourceCommit": "42af1521c97c916b041dbfceb23987daf885a578",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4278,6 +4278,18 @@
       "sha256": "ba8c397856d500d2ca577c2816d7d4240daa16de5e842f2b5659cbb99cf6ff25",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6044B.html"
+    },
+    {
+      "code": "6044C",
+      "title": "Course 6044C — Industrial Automation | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6044C/v1/6044C.pdf",
+      "bytes": 952176,
+      "sha256": "dc6cfc1789ec7c0eed1bb60d86a316c62ea665043b6415b1280c9c3f8d12dc22",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6044C.html"
     },
     {
       "code": "6051A",

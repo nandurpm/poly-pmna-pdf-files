@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:48:43Z",
-  "sourceCommit": "f0a755168fcc7834cb70a76f4e2fbf86969329f9",
+  "generatedAt": "2026-08-18T08:50:34Z",
+  "sourceCommit": "510e214a487859cd128031999af8786bbe6bb735",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4254,6 +4254,18 @@
       "sha256": "b664fa9a8d9f659ef596829d64c217507c9fd8ed04af66b6ba59927ea5e1f36d",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6043B.html"
+    },
+    {
+      "code": "6043D",
+      "title": "Course 6043D — Electronic Instrumentation | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6043D/v1/6043D.pdf",
+      "bytes": 951848,
+      "sha256": "2a80e6776bda988571b80ed081a061de6ac3ca72277903f2e6db485d0e567b78",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6043D.html"
     },
     {
       "code": "6051A",

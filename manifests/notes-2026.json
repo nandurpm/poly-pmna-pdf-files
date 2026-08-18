@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:56:12Z",
-  "sourceCommit": "cfec3bdd88689f0916511ff856d8035bf8ae0856",
+  "generatedAt": "2026-08-18T10:44:54Z",
+  "sourceCommit": "779b472b19470252c8a74c53b9008e18865a2e28",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -2601,14 +2601,14 @@
     },
     {
       "code": "5033B",
-      "title": "Course 5033B — Special Electrical Machines | REV2026 | POLY PMNA",
+      "title": "Course 5033B — Special Electical Machines | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5033B/v1/5033B.pdf",
-      "bytes": 954987,
-      "sha256": "193c0365a9eae53f51754f8463afafb9b3e4fcb0d79cc93680a5fcd6dc1c5ce2",
-      "pages": 29,
+      "bytes": 953652,
+      "sha256": "a80b227cd989c018f2b49626283c905dadf41df8d47422447d03f3cc372cc5fb",
+      "pages": 28,
       "source": "revision-2026-content/lessons/lessons-5033B.html"
     },
     {

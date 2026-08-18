@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:37:50Z",
-  "sourceCommit": "c38c90c5ca0b5c1edefa1f2f092a2f432efaebb8",
+  "generatedAt": "2026-08-18T08:39:37Z",
+  "sourceCommit": "01f97e6170254805f75bd490b8285eaf968e310d",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4206,6 +4206,18 @@
       "sha256": "0b29e5fb76847ab4bac49bfe1c484fb9d58b8399cc26ec7a7ebf01bcfb79fb63",
       "pages": 28,
       "source": "revision-2026-content/lessons/lessons-6034B.html"
+    },
+    {
+      "code": "6034C",
+      "title": "Course 6034C — Electrification of Residential Buildings | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6034C/v1/6034C.pdf",
+      "bytes": 957084,
+      "sha256": "80dec0d2660c48a06bee916bb67acb16890b43c5ce9c504187d3d61354683dad",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6034C.html"
     },
     {
       "code": "6051A",

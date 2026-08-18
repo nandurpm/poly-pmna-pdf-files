@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:29:03Z",
-  "sourceCommit": "379dd5512bf8db262ff27cca5e2d7fcf3d9a0156",
+  "generatedAt": "2026-08-18T08:32:09Z",
+  "sourceCommit": "8d6e3e9ea0bb2959bcfc9fb7a6f3811ab0273a9e",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4170,6 +4170,18 @@
       "sha256": "fce6e15d8d32d9f6c0586ea9e259db2be4ff926fa87c0f8b92850975e3994aef",
       "pages": 28,
       "source": "revision-2026-content/lessons/lessons-6032.html"
+    },
+    {
+      "code": "6033A",
+      "title": "Course 6033A — Energy Conservation and Audit | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6033A/v1/6033A.pdf",
+      "bytes": 963202,
+      "sha256": "45d445f37a4d300d6b961c5c6aca97f10ec91318ac50f0e2f31fd6172c6cb4c7",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6033A.html"
     },
     {
       "code": "6051A",

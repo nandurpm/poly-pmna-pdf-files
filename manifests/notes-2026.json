@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:41:32Z",
-  "sourceCommit": "83acb6e7dc102baa5c761b09b77792b5ba17d141",
+  "generatedAt": "2026-08-18T08:44:42Z",
+  "sourceCommit": "62ac7cb2d02320f98969e8fb65958805e22e4620",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4230,6 +4230,18 @@
       "sha256": "0cd7040949409e26c53d20e656313158ae13745279911b8c240220e4eb05e95a",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6034D.html"
+    },
+    {
+      "code": "6042",
+      "title": "Course 6042 — Robotics and Artificial Intelligence | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6042/v1/6042.pdf",
+      "bytes": 958952,
+      "sha256": "6b7f4f573b8f690f74135a776912f62500b6fa8b22b09156f7369ac36ead176d",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6042.html"
     },
     {
       "code": "6051A",

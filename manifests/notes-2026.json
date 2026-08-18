@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:46:05Z",
-  "sourceCommit": "0befef8e8e5191b9b67664ca39b026d72ed95cad",
+  "generatedAt": "2026-08-18T09:48:12Z",
+  "sourceCommit": "bcf00721608778fc1182a36e1c45add5c5566ead",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -2697,14 +2697,14 @@
     },
     {
       "code": "5043D",
-      "title": "Course 5043D — Optoelectronics | REV2026 | POLY PMNA",
+      "title": "Course 5043D — Advanced Microprocessors | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5043D/v1/5043D.pdf",
-      "bytes": 951215,
-      "sha256": "c0096704a22702f6bccfd5801a343e967544327c1a712d8f2bc8dbc8d5f6c13e",
-      "pages": 29,
+      "bytes": 958403,
+      "sha256": "a5ac04a7b3f2ad450ca404b73d23960ae81db9d77c985b64d7a07ebbef88b875",
+      "pages": 28,
       "source": "revision-2026-content/lessons/lessons-5043D.html"
     },
     {

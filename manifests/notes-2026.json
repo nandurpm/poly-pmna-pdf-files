@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:52:15Z",
-  "sourceCommit": "ef85971f06300c5d25ed0d6f1e949638b9a53d03",
+  "generatedAt": "2026-08-18T09:54:29Z",
+  "sourceCommit": "b6d6f99c298f2a83410a1a64c7e969a1dac5c41f",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4281,13 +4281,13 @@
     },
     {
       "code": "6044C",
-      "title": "Course 6044C — Industrial Automation | REV2026 | POLY PMNA",
+      "title": "Course 6044C — Drone Technology | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6044C/v1/6044C.pdf",
-      "bytes": 952176,
-      "sha256": "dc6cfc1789ec7c0eed1bb60d86a316c62ea665043b6415b1280c9c3f8d12dc22",
+      "bytes": 956670,
+      "sha256": "2c3e0a660cfaa638c8a6674e3311fba8853f5c33826f6d2750c90d708dca34c9",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6044C.html"
     },

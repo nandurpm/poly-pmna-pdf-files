@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:48:12Z",
-  "sourceCommit": "bcf00721608778fc1182a36e1c45add5c5566ead",
+  "generatedAt": "2026-08-18T09:50:28Z",
+  "sourceCommit": "49cd587af047ec74b9856277434f19a3314b7855",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4257,13 +4257,13 @@
     },
     {
       "code": "6043D",
-      "title": "Course 6043D — Electronic Instrumentation | REV2026 | POLY PMNA",
+      "title": "Course 6043D — Principles of MEMS | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6043D/v1/6043D.pdf",
-      "bytes": 951848,
-      "sha256": "2a80e6776bda988571b80ed081a061de6ac3ca72277903f2e6db485d0e567b78",
+      "bytes": 951785,
+      "sha256": "8d05574c3cb02d1aa2c5c1846ae33264b813bba7134614eac9e0498f22a85897",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6043D.html"
     },

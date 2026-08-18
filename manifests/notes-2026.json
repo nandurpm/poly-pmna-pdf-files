@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T09:44:15Z",
-  "sourceCommit": "ecacc96175dcf848347f36d6bafe3924974db4c5",
+  "generatedAt": "2026-08-18T09:46:05Z",
+  "sourceCommit": "0befef8e8e5191b9b67664ca39b026d72ed95cad",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -2685,14 +2685,14 @@
     },
     {
       "code": "5043C",
-      "title": "Course 5043C — Biomedical Engineering | REV2026 | POLY PMNA",
+      "title": "Course 5043C — Telecommunication Networks | REV2026 | POLY PMNA",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/5043C/v1/5043C.pdf",
-      "bytes": 954007,
-      "sha256": "6b1f1d3bd266d0b30866ca1cd8d9960a9482c5201924108ff8a0217839fe7e45",
-      "pages": 29,
+      "bytes": 955093,
+      "sha256": "da0e9a44001121176a54aa704a154bde6eb664776aa092c8a1cd1789e786234d",
+      "pages": 27,
       "source": "revision-2026-content/lessons/lessons-5043C.html"
     },
     {

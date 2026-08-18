@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:32:09Z",
-  "sourceCommit": "8d6e3e9ea0bb2959bcfc9fb7a6f3811ab0273a9e",
+  "generatedAt": "2026-08-18T08:35:50Z",
+  "sourceCommit": "5cdbdca0f622fa5e6bb485d1a9e17c00f6be26a3",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4182,6 +4182,18 @@
       "sha256": "45d445f37a4d300d6b961c5c6aca97f10ec91318ac50f0e2f31fd6172c6cb4c7",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6033A.html"
+    },
+    {
+      "code": "6033C",
+      "title": "Course 6033C — Industrial Drives and Control | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6033C/v1/6033C.pdf",
+      "bytes": 951719,
+      "sha256": "5f69431d3f0da505a38d1f3a2d3b3d3924abc8e23f28c5447195c00a2672f44c",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6033C.html"
     },
     {
       "code": "6051A",

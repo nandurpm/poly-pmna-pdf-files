@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-18T08:44:42Z",
-  "sourceCommit": "62ac7cb2d02320f98969e8fb65958805e22e4620",
+  "generatedAt": "2026-08-18T08:48:43Z",
+  "sourceCommit": "f0a755168fcc7834cb70a76f4e2fbf86969329f9",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -4242,6 +4242,18 @@
       "sha256": "6b7f4f573b8f690f74135a776912f62500b6fa8b22b09156f7369ac36ead176d",
       "pages": 27,
       "source": "revision-2026-content/lessons/lessons-6042.html"
+    },
+    {
+      "code": "6043B",
+      "title": "Course 6043B — Microcontrollers &amp; Applications | REV2026 | POLY PMNA",
+      "revision": "2026",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/6043B/v1/6043B.pdf",
+      "bytes": 954187,
+      "sha256": "b664fa9a8d9f659ef596829d64c217507c9fd8ed04af66b6ba59927ea5e1f36d",
+      "pages": 27,
+      "source": "revision-2026-content/lessons/lessons-6043B.html"
     },
     {
       "code": "6051A",

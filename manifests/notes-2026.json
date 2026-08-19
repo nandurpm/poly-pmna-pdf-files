@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2026",
-  "generatedAt": "2026-08-19T04:14:00Z",
-  "sourceCommit": "c7138a4e9c289b22e51a4386d298c6002efcb0ec",
+  "generatedAt": "2026-08-19T04:57:32Z",
+  "sourceCommit": "3228025dc15a99adbd8f1fd50d05c3096b45fa20",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -513,14 +513,14 @@
     },
     {
       "code": "2018",
-      "title": "2018 — Construction Materials Lab | REV2026",
+      "title": "Construction Materials Lab (2018) | Kerala Polytechnic Revision 2026 Study Hub",
       "revision": "2026",
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2026/2018/v1/2018.pdf",
-      "bytes": 317012,
-      "sha256": "1be60b4252463ff2a0bceed49327cde6901ad66c1aca532e686cb2a0585a8a7f",
-      "pages": 11,
+      "bytes": 339039,
+      "sha256": "e5d29bec406d5bd83d6a9337f348e7c3b93d69c915cca52a90b92844fbca171e",
+      "pages": 6,
       "source": "revision-2026-content/lessons/lessons-2018.html"
     },
     {

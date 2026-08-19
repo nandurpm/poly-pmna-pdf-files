@@ -10,48 +10,42 @@
       "documentType": "model-question-paper",
       "candidates": 662,
       "published": 464,
-      "unavailableOrNotPublished": 198,
-      "manifest": "manifest-revision-2015-model-question-paper.jsonl"
+      "unavailableOrNotPublished": 198
     },
     {
       "revision": "2015",
       "documentType": "syllabus",
       "candidates": 1139,
       "published": 1113,
-      "unavailableOrNotPublished": 26,
-      "manifest": "manifest-revision-2015-syllabus.jsonl"
+      "unavailableOrNotPublished": 26
     },
     {
       "revision": "2021",
       "documentType": "model-question-paper",
       "candidates": 1465,
       "published": 964,
-      "unavailableOrNotPublished": 501,
-      "manifest": "manifest-revision-2021-model-question-paper.jsonl"
+      "unavailableOrNotPublished": 501
     },
     {
       "revision": "2021",
       "documentType": "syllabus",
       "candidates": 2732,
       "published": 2701,
-      "unavailableOrNotPublished": 31,
-      "manifest": "manifest-revision-2021-syllabus.jsonl"
+      "unavailableOrNotPublished": 31
     },
     {
       "revision": "2026",
       "documentType": "model-question-paper",
       "candidates": 1149,
       "published": 364,
-      "unavailableOrNotPublished": 785,
-      "manifest": "manifest-revision-2026-model-question-paper.jsonl"
+      "unavailableOrNotPublished": 785
     },
     {
       "revision": "2026",
       "documentType": "syllabus",
       "candidates": 2666,
       "published": 669,
-      "unavailableOrNotPublished": 1997,
-      "manifest": "manifest-revision-2026-syllabus.jsonl"
+      "unavailableOrNotPublished": 1997
     }
   ],
   "documents": [
@@ -83887,8 +83881,8 @@
       "semester": "_general",
       "courseCode": "_general",
       "courseName": "Handbook",
-      "path": "sitttr/revision-2021/syllabus/_general/handbook.pdf",
-      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2021/syllabus/_general/handbook.pdf",
+      "path": "sitttr/revision-2021/syllabus/_general/semester-unspecified/handbook.pdf",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2021/syllabus/_general/semester-unspecified/handbook.pdf",
       "sourceUrl": "https://sitttrkerala.ac.in/syllabus/rev2021/handbook-rev2021.pdf",
       "bytes": 523973,
       "pages": 78,
@@ -83903,8 +83897,8 @@
       "semester": "_general",
       "courseCode": "_general",
       "courseName": "Rules and regulations",
-      "path": "sitttr/revision-2021/syllabus/_general/rules-and-regulations.pdf",
-      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2021/syllabus/_general/rules-and-regulations.pdf",
+      "path": "sitttr/revision-2021/syllabus/_general/semester-unspecified/rules-and-regulations.pdf",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2021/syllabus/_general/semester-unspecified/rules-and-regulations.pdf",
       "sourceUrl": "https://sitttrkerala.ac.in/syllabus/rev2021/rules-rev2021.pdf",
       "bytes": 225936,
       "pages": 33,
@@ -83919,8 +83913,8 @@
       "semester": "_general",
       "courseCode": "_general",
       "courseName": "Student Activity Points",
-      "path": "sitttr/revision-2021/syllabus/_general/student-activity-points.pdf",
-      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2021/syllabus/_general/student-activity-points.pdf",
+      "path": "sitttr/revision-2021/syllabus/_general/semester-unspecified/student-activity-points.pdf",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2021/syllabus/_general/semester-unspecified/student-activity-points.pdf",
       "sourceUrl": "https://sitttrkerala.ac.in/syllabus/rev2021/activity-rev2021.pdf",
       "bytes": 88574,
       "pages": 5,
@@ -100431,8 +100425,8 @@
       "semester": "_general",
       "courseCode": "_general",
       "courseName": "Activity Points",
-      "path": "sitttr/revision-2026/syllabus/_general/activity-points.pdf",
-      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2026/syllabus/_general/activity-points.pdf",
+      "path": "sitttr/revision-2026/syllabus/_general/semester-unspecified/activity-points.pdf",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2026/syllabus/_general/semester-unspecified/activity-points.pdf",
       "sourceUrl": "https://sitttrkerala.ac.in/syllabus/rev2026/diploma-curriculum-2026-activity-points.pdf",
       "bytes": 1006950,
       "pages": 12,
@@ -100447,8 +100441,8 @@
       "semester": "_general",
       "courseCode": "_general",
       "courseName": "Rules and Regulations",
-      "path": "sitttr/revision-2026/syllabus/_general/rules-and-regulations.pdf",
-      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2026/syllabus/_general/rules-and-regulations.pdf",
+      "path": "sitttr/revision-2026/syllabus/_general/semester-unspecified/rules-and-regulations.pdf",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/sitttr/revision-2026/syllabus/_general/semester-unspecified/rules-and-regulations.pdf",
       "sourceUrl": "https://sitttrkerala.ac.in/syllabus/rev2026/diploma-curriculum-2026-rules-and-regulations.pdf",
       "bytes": 1246273,
       "pages": 58,

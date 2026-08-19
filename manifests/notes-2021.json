@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-19T06:19:17Z",
-  "sourceCommit": "f67f2ca06ae65b64989ea5afbb261979e6f72a25",
+  "generatedAt": "2026-08-19T12:55:02Z",
+  "sourceCommit": "b2cbb23ca57ff74b995f725238242a4663bfdb15",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -15,7 +15,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1001/v1/1001.pdf",
       "bytes": 490481,
-      "sha256": "10e8ae4fe52bee275a488fbfad5cad5a64eab2e039a7209eba766ba446c101d5",
+      "sha256": "9ddf388c734f25cdaeeaa3e5398baf19385214d51f0cb9950f03785d2db559c1",
       "pages": 16,
       "source": "lessons/lessons-1001.html"
     },
@@ -27,7 +27,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1002/v1/1002.pdf",
       "bytes": 725552,
-      "sha256": "72830e60c7ccfcc39a067f7bf5e40688dbb49e567b424d6ac581b26a410e46f9",
+      "sha256": "aee6d62786f9fbe40a8f62e09ab4435fb138a7a6291ff3fe21cc25509ebfe8c2",
       "pages": 13,
       "source": "lessons/lessons-1002.html"
     },
@@ -39,7 +39,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1003/v1/1003.pdf",
       "bytes": 1979581,
-      "sha256": "61f76155c5ac4f74e45667362f3ce54c68de3ceb0eb4d2d38e84b6ebca2b641f",
+      "sha256": "7b9ef9c17ce006c024f2c9d2cf5eb66484dc3c1fedb99ec2462bd6c6ea7d12ee",
       "pages": 62,
       "source": "lessons/lessons-1003.html"
     },
@@ -51,7 +51,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1004/v1/1004.pdf",
       "bytes": 50431,
-      "sha256": "971b9ffcc4e25e346ebf342e62477c3476b86e917233afdc862c7d86b0f288c6",
+      "sha256": "77d1266389bf92eca4e230e9f5274324bc40e87e3cc168a333bc724b40597a47",
       "pages": 1,
       "source": "lessons/lessons-1004.html"
     },
@@ -63,7 +63,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1005/v1/1005.pdf",
       "bytes": 630572,
-      "sha256": "612c74df1bd6356b25e1e7739b9bb8c6307e94937ff52a395ad424d360b46244",
+      "sha256": "3c7a7fa2e65cc560be375a7a48beae24c8e91670c07fac14ab4dba8874e3935e",
       "pages": 32,
       "source": "lessons/lessons-1005.html"
     },
@@ -75,7 +75,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1006/v1/1006.pdf",
       "bytes": 868140,
-      "sha256": "aae595f7ed82dca822c162bc4d6baf3429f66c168fe35570e88c5abb660b0155",
+      "sha256": "47bfcf8afa1494cdf9cc0692b549cf63f437f7a8d7d248a8afeb78f1baec8d55",
       "pages": 22,
       "source": "lessons/lessons-1006.html"
     },
@@ -87,7 +87,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1007/v1/1007.pdf",
       "bytes": 1523307,
-      "sha256": "df3436e1bfdb634a1b3b228fe93133f31f8e1f11f80ce00d8e964d93bf0e4c60",
+      "sha256": "241e33e7dbc979bd55ceaf3e088cc66fad106a68a856f1725681adc39071b79e",
       "pages": 15,
       "source": "lessons/lessons-1007.html"
     },
@@ -99,7 +99,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1008/v1/1008.pdf",
       "bytes": 1624262,
-      "sha256": "0299e27b99fca91a4f58a7aa859ab87aff40b0b451e78ee9d42c71cebdeb9027",
+      "sha256": "e37b67501b5a94c1e5b2aebc9a7325f437bea7579a88411508c50c0dcba959b0",
       "pages": 61,
       "source": "lessons/lessons-1008.html"
     },
@@ -111,7 +111,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1009/v1/1009.pdf",
       "bytes": 333921,
-      "sha256": "aa315f4f470d24ba73f9d35447b4f866ab5fcab377f65b8824ae7d3bdacc1dcb",
+      "sha256": "f912e89eccc2510e5c93b06ea5094761887a69df74a990684d5ed836d16e69fe",
       "pages": 6,
       "source": "lessons/lessons-1009.html"
     },
@@ -123,7 +123,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1141/v1/1141.pdf",
       "bytes": 360010,
-      "sha256": "bbfb008bb5cbd0efcbc4cb1f81049825c211efe2a87708398beee1b0cca8aa52",
+      "sha256": "d58f490b2cc56f0e96301ff3ebf2cb762761c74d86a29a53ffd7a8628f3a7c13",
       "pages": 6,
       "source": "lessons/lessons-1141.html"
     },
@@ -135,7 +135,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1142/v1/1142.pdf",
       "bytes": 337858,
-      "sha256": "36c86b2c9f99b6f141995ecb7a3b66a3b60964fa20f1698afd9c5f653bdda857",
+      "sha256": "816b9979435cfcaafeaf409ebff05e07df39244dda4553030ca8ce5580751abc",
       "pages": 6,
       "source": "lessons/lessons-1142.html"
     },
@@ -147,7 +147,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1143/v1/1143.pdf",
       "bytes": 337002,
-      "sha256": "da345eb13878bf712f575ed849fd93c4c360c630950e21cdf688a5456e46d608",
+      "sha256": "fd9c7746796c8e758aeb36d52d7692be09fecdb5bc28d97657c405229f1016e3",
       "pages": 6,
       "source": "lessons/lessons-1143.html"
     },
@@ -159,7 +159,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1144/v1/1144.pdf",
       "bytes": 337960,
-      "sha256": "800bdfde3aefa675bb3169281363ec9d8d87d75212a9f065aa82520220608658",
+      "sha256": "5936175a9de6f3c09984c9f16486f80bdfdbd6341cffbd24faa893b760199926",
       "pages": 6,
       "source": "lessons/lessons-1144.html"
     },
@@ -171,7 +171,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1149/v1/1149.pdf",
       "bytes": 340139,
-      "sha256": "271c08a014a2b37d5befe074db239fb5ed0b9e9f0a645b80bbc1637296454435",
+      "sha256": "fc70c3fe44da96e04b3a80861e524dda75310885d9185848c64cb885341764f2",
       "pages": 6,
       "source": "lessons/lessons-1149.html"
     },
@@ -183,7 +183,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1251/v1/1251.pdf",
       "bytes": 330967,
-      "sha256": "1db96683893c92d8bd4d380a55d42db5b434e9dab802633931e4441b5b2ed331",
+      "sha256": "649e950ebc0142482b88071571ca143cf893d60fe5c724981a49825cdf12da4c",
       "pages": 6,
       "source": "lessons/lessons-1251.html"
     },
@@ -195,7 +195,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1252/v1/1252.pdf",
       "bytes": 330935,
-      "sha256": "981f544e8b348c36848b718fc989eee8dbb1998b4c3b253ff01ba7e5bec29608",
+      "sha256": "918206aeaff7429958e43c67b4df445b92b17e146a77487921c95ecf22a2803e",
       "pages": 6,
       "source": "lessons/lessons-1252.html"
     },
@@ -207,7 +207,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1253/v1/1253.pdf",
       "bytes": 338577,
-      "sha256": "b543892e8ac865c18c57d726534fbdb9d69338fdd1a5436944b38068b0661b9c",
+      "sha256": "748f9e0b0d3655afa9d3808595c63373b05d5e132ee2ff008aee1fdbb2cf4807",
       "pages": 7,
       "source": "lessons/lessons-1253.html"
     },
@@ -219,7 +219,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1254/v1/1254.pdf",
       "bytes": 331143,
-      "sha256": "db9c1344b5054cb431ddecb3d70f8540268ac6f9c4c8c0dbd5537c08674fbae1",
+      "sha256": "cea298d44e280b5666f595f02d5d63411425f1d2ec8cc55ba6703336c6a30d52",
       "pages": 6,
       "source": "lessons/lessons-1254.html"
     },
@@ -231,7 +231,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1257/v1/1257.pdf",
       "bytes": 339569,
-      "sha256": "7c59a6e09ea318ed34fff698045342a23f55befb64824607b83ddcf1efd52f1c",
+      "sha256": "16f05b1d7c1962d4aa947d945ad8686b7e3baa6ab7c471e0c8e1987ab193cbb5",
       "pages": 7,
       "source": "lessons/lessons-1257.html"
     },
@@ -243,7 +243,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1258/v1/1258.pdf",
       "bytes": 2798751,
-      "sha256": "d36e57156782f60925ba1fdd3414290643e6c0d6b040f14f8890347afa5d18a0",
+      "sha256": "e9c3d4bd207e312b8f403d61201cf4d01c199824e85493656c678a9aae9705d4",
       "pages": 230,
       "source": "lessons/lessons-1258.html"
     },
@@ -255,7 +255,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1259/v1/1259.pdf",
       "bytes": 350838,
-      "sha256": "8f7cd4695336b59dc3970e10c27ea6f826cea3808fb13d1f41bb3490d92f84da",
+      "sha256": "a9619d7584f779fa5edaf61203433a3cb2b1cadeee1f413e75150c1d5bd7f95d",
       "pages": 9,
       "source": "lessons/lessons-1259.html"
     },
@@ -267,7 +267,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1471/v1/1471.pdf",
       "bytes": 4137256,
-      "sha256": "0a476c593b05e64684107217cd29108e08e9bdf47150096d51c7d2cbc25db52f",
+      "sha256": "c71886046fd03c3b6fd3280f5a2bef017344448e80b64e6000b3e07699a95915",
       "pages": 343,
       "source": "lessons/lessons-1471.html"
     },
@@ -279,7 +279,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1472/v1/1472.pdf",
       "bytes": 1581093,
-      "sha256": "2691b94b4e6aca1063442fb6ee7361ba880b8439625a119e42513762791a5d2c",
+      "sha256": "254a936713dec961e7d16d0a034f6096e4c7ea0ca96204696a08dd6010768a4f",
       "pages": 91,
       "source": "lessons/lessons-1472.html"
     },
@@ -291,7 +291,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1473/v1/1473.pdf",
       "bytes": 3292920,
-      "sha256": "d20cff2ac89b5f1528e416ba386a239a034a2aab695f7e1bc41b71f5630a192c",
+      "sha256": "1707143246cbd048db0b89699fd79b89ef3e14c786724288fd70d786fce753f1",
       "pages": 273,
       "source": "lessons/lessons-1473.html"
     },
@@ -303,7 +303,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1474/v1/1474.pdf",
       "bytes": 1788784,
-      "sha256": "3ef9a5c5875c4228c54d8234a2b15fd03a32de846637bcda87fa7f1342a00c70",
+      "sha256": "679d647bdc217a5694d03f1eeda29b63fd3fe6a4c959408dc24eb3cd2fc94b48",
       "pages": 129,
       "source": "lessons/lessons-1474.html"
     },
@@ -315,7 +315,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1477/v1/1477.pdf",
       "bytes": 2277408,
-      "sha256": "cbf4bb3570d5d5f6e62e8e0dc42693ebf764b1759fa61501db88bdcdae241488",
+      "sha256": "b94285f3524a38259b818afe3c839958eb8d4478722177fd67c555c67f839a96",
       "pages": 200,
       "source": "lessons/lessons-1477.html"
     },
@@ -327,7 +327,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1478/v1/1478.pdf",
       "bytes": 7135604,
-      "sha256": "082338c6661429a6da607fc9da5f82af0fab22c61bebac7085f1026a72716a08",
+      "sha256": "6fe4df4496910ee29ff41f90c49bbabaa0bf092bd74863e64d9bc2e1596bb9d8",
       "pages": 686,
       "source": "lessons/lessons-1478.html"
     },
@@ -339,7 +339,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/1479/v1/1479.pdf",
       "bytes": 2163563,
-      "sha256": "3faab5e1ca83dfcfa49117a0b6ec857fc559282c9a982d53bbffb03f3130c4c0",
+      "sha256": "4f90f0a6ffda8a8a131877962e3a9ed871d4165df99b62238d73456c6d9b8da1",
       "pages": 187,
       "source": "lessons/lessons-1479.html"
     },
@@ -351,7 +351,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2001/v1/2001.pdf",
       "bytes": 60370,
-      "sha256": "8245a535315be9f14695d445016e0ec645ac6e97fcd8895d967c2ac5a82a224c",
+      "sha256": "230e352df7848d78e2f05b71d98a264c8e7b1f2b9b964a8f22fb4819cfc6cd96",
       "pages": 1,
       "source": "lessons/lessons-2001.html"
     },
@@ -363,7 +363,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2002/v1/2002.pdf",
       "bytes": 1220052,
-      "sha256": "ba0aca9b00efe517d69ef5fb5fc862e07d288134d84aab25b5da4da78783c690",
+      "sha256": "d86d1aeb908b7f57f51e2b40e62cec9f3218adab0336859451675c5e84b88a37",
       "pages": 39,
       "source": "lessons/lessons-2002.html"
     },
@@ -375,7 +375,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2003/v1/2003.pdf",
       "bytes": 690807,
-      "sha256": "9990814676703200185f8e66a96d6908743f948100c239bb746ac716a4112682",
+      "sha256": "8cfeb2fa6ffc1ec8d07903f7f3230bfd05702af4b91b8f65da0ef2950fd0e290",
       "pages": 39,
       "source": "lessons/lessons-2003.html"
     },
@@ -387,7 +387,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2006/v1/2006.pdf",
       "bytes": 2555961,
-      "sha256": "cf2d5995602bca8447ac25a160f55eded4ecfce53ea2d5d380a72b55f07e979d",
+      "sha256": "af303baa07d16bddb4605d75e1543f1567f33abd20a3b3c252cb4dc35d931d09",
       "pages": 38,
       "source": "lessons/lessons-2006.html"
     },
@@ -399,7 +399,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2008_REV2021/v1/2008_REV2021.pdf",
       "bytes": 254726,
-      "sha256": "95f01b770965277bad45679078e9a52d919e8e055af77425f94d9231ae6141fe",
+      "sha256": "8c7a9e301e6c77ca3366e4046f2e4ba92f7ea6da09bd5d62b57da38875c6da5d",
       "pages": 5,
       "source": "lessons/lessons-2008_REV2021.html"
     },
@@ -411,7 +411,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2009_REV2021/v1/2009_REV2021.pdf",
       "bytes": 343406,
-      "sha256": "cad7eaefaa33503751351298fe22f7ccd0bcc6268fb8f77cf0f551cb51425b07",
+      "sha256": "2e3e6fd204052ed943089e090adb464e0ec9196c53def5ab02b0cda0b6ef437f",
       "pages": 5,
       "source": "lessons/lessons-2009_REV2021.html"
     },
@@ -423,7 +423,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2011/v1/2011.pdf",
       "bytes": 1674056,
-      "sha256": "03c5d4ae7efefab021355bbd43a54b79f947045f34ebc0abc452ef70adf30d0f",
+      "sha256": "d208a58708b191f08c86cd31646a73d0a33cfd192b8b25ead746d172e90701c5",
       "pages": 71,
       "source": "lessons/lessons-2011.html"
     },
@@ -435,7 +435,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2021/v1/2021.pdf",
       "bytes": 1841858,
-      "sha256": "cafa43a505054fe08c6812f591c47e8323188b95499c86d208926f543ee06abe",
+      "sha256": "3a4368a18ba086f3d07c6d40bae5c98e1dd7893ada2193c5a8cb28271b62b8fe",
       "pages": 24,
       "source": "lessons/lessons-2021.html"
     },
@@ -447,7 +447,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2022/v1/2022.pdf",
       "bytes": 535437,
-      "sha256": "b4bdf6feff998153660f7590f09be7797d7d0cac33388a3581fbfede398a81a2",
+      "sha256": "3b942f545727dc7f702697b3d4f91f24242f26bfe31649ab119cecf40ff2537a",
       "pages": 19,
       "source": "lessons/lessons-2022.html"
     },
@@ -459,7 +459,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2028/v1/2028.pdf",
       "bytes": 1505532,
-      "sha256": "5e435de16e2cd028dd2449f60c07824b21244f3f033d7d6048e790744f3fec73",
+      "sha256": "72fbb0147faa0accdd3988cc60b1c3d26e4447d42583bb6eef4b89dfe98f9dbd",
       "pages": 22,
       "source": "lessons/lessons-2028.html"
     },
@@ -471,7 +471,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2029/v1/2029.pdf",
       "bytes": 798991,
-      "sha256": "3dfd3738ead28475085ff0004286c5c0492804c52947de453343423bbf3cc5db",
+      "sha256": "ff5899145eeeac7a09476eec1e76a2494687bf124965562292169736ccaaf73f",
       "pages": 20,
       "source": "lessons/lessons-2029.html"
     },
@@ -483,7 +483,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2031/v1/2031.pdf",
       "bytes": 690924,
-      "sha256": "d2d2d7870ef11b9c79612374f3f45c3e61bd089cd1ac734782b66db913fa197f",
+      "sha256": "824d3e96e93a85c4225a6ae93c8d86ee49cad28dc0009096d3957ed552c50dbb",
       "pages": 34,
       "source": "lessons/lessons-2031.html"
     },
@@ -495,7 +495,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2032/v1/2032.pdf",
       "bytes": 710668,
-      "sha256": "b01e0795e7f1d8de93730a2e0b95d9555cc291cc70e9fd35e82da2bf8f0ef9e1",
+      "sha256": "2d36fbf513a47649c87427d4f74672dee9a1f88096192c6077218d89d19e85a8",
       "pages": 24,
       "source": "lessons/lessons-2032.html"
     },
@@ -507,7 +507,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2038/v1/2038.pdf",
       "bytes": 1112058,
-      "sha256": "4c5942c88bce30ed5f034a9853213b63b183e85984ba4a675fcb0d707274ba69",
+      "sha256": "0582f4a532aaa53922de2ce0b8be89ccec52719cb832d96cd001d1946ec1031e",
       "pages": 40,
       "source": "lessons/lessons-2038.html"
     },
@@ -519,7 +519,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2039/v1/2039.pdf",
       "bytes": 1003604,
-      "sha256": "976c66e875e7a5e9868944622b389f5b2eb862fd0144ad005cee6d2c5b5997f4",
+      "sha256": "6d42c2486f10c688cd9ad1926526ff894f04e4fb524d39a2d378b045aeb1f20d",
       "pages": 17,
       "source": "lessons/lessons-2039.html"
     },
@@ -531,7 +531,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2041/v1/2041.pdf",
       "bytes": 1609269,
-      "sha256": "9aea32a6ed3bf6d298161ae4e5da618644283e80cec65e57f519410a5ac74c9b",
+      "sha256": "d0f7c10a16f7045178c059e30c496686cd2b2fff73a0df5deecd7a65504b918a",
       "pages": 40,
       "source": "lessons/lessons-2041.html"
     },
@@ -543,7 +543,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2049/v1/2049.pdf",
       "bytes": 926584,
-      "sha256": "f1044b918e899cae2689fb25a84f69087cd6e42c1befb024fda5be8d987c4291",
+      "sha256": "c47eeda84162348ad3aab126e241dfe1ed121af63e76e7dbbc9ec96f0d121e4a",
       "pages": 21,
       "source": "lessons/lessons-2049.html"
     },
@@ -555,7 +555,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2131/v1/2131.pdf",
       "bytes": 481124,
-      "sha256": "14c5eb3017f42f68a88f4a8148208d83e2c261e679f3974dab2cfbda6a707949",
+      "sha256": "f6fd7b0ffa78ae825f6dc110b45964a81effeac486eb35c399d671b0423397fe",
       "pages": 11,
       "source": "lessons/lessons-2131.html"
     },
@@ -567,7 +567,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2139/v1/2139.pdf",
       "bytes": 480938,
-      "sha256": "85a58743a2f57da32c229630a7b5f49b8f63ede5e3302b40cca6ed12c1467d05",
+      "sha256": "db33676e89afbb7a19737b43ba93d4912088a7b605c28bed428b9448965cccb0",
       "pages": 11,
       "source": "lessons/lessons-2139.html"
     },
@@ -579,7 +579,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2181/v1/2181.pdf",
       "bytes": 2242750,
-      "sha256": "98343c146e917d6d5f2fe35d4fce96336e9226e94b34bc6422bb84d375f0936e",
+      "sha256": "f3e71e320d8cdb92eaa1f9513b8dfec483b0102c46bc6f5c2e42ceddeed337f7",
       "pages": 144,
       "source": "lessons/lessons-2181.html"
     },
@@ -591,7 +591,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2254/v1/2254.pdf",
       "bytes": 2611176,
-      "sha256": "5ea32472325addd4e22e4cb7ac061eff44d91fb4b981847fcf2f9721c3181650",
+      "sha256": "367b197e58b14af9d0b32c51a441cdfd601a2af3b56a4c3ab240c6c7052e1bee",
       "pages": 184,
       "source": "lessons/lessons-2254.html"
     },
@@ -603,7 +603,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2255/v1/2255.pdf",
       "bytes": 2564714,
-      "sha256": "63bee3c3ea59a9b80d42e9f1cf9b48d83909905798b2ec6cbd82d6224dd04b0d",
+      "sha256": "eeb89b91d10e654187985e6839fb2d40d80648c082ad343c1ed34031d08f31de",
       "pages": 177,
       "source": "lessons/lessons-2255.html"
     },
@@ -615,7 +615,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2371/v1/2371.pdf",
       "bytes": 3696714,
-      "sha256": "f4bc6f0646b8251776030c6f0d19470993b99450df1565a15500e220c0f98205",
+      "sha256": "45001896848d4a4f68b429c1db9b23205d430fe028b2b7ea5438a2c62b409a71",
       "pages": 271,
       "source": "lessons/lessons-2371.html"
     },
@@ -627,7 +627,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3011/v1/3011.pdf",
       "bytes": 1677388,
-      "sha256": "e88f9fc57fcbb7f5cc0d1df75e9bb1ede2bc2bafb01b628b7aab08d7784b6504",
+      "sha256": "7361e8d889c9c5da2fafdc8dfb949d94c7746b9058577f470bff0b613ca0127e",
       "pages": 71,
       "source": "lessons/lessons-3011.html"
     },
@@ -639,7 +639,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3012/v1/3012.pdf",
       "bytes": 1677496,
-      "sha256": "916842c6b67f6710bf34b3cf9d45b076c5939ce43b106f2c70c6f34279a05308",
+      "sha256": "c9621e8fb5acc4fdc236fd68b21c62486a7dff9caf2cfe3a3f5d910d3cded669",
       "pages": 71,
       "source": "lessons/lessons-3012.html"
     },
@@ -651,7 +651,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3013/v1/3013.pdf",
       "bytes": 1673497,
-      "sha256": "21aa52b449c09adde531883edcadd8a3acb0f2604683770c8dac2d14cd152f6d",
+      "sha256": "2ce1e9758a37372d5284db541668448f70c5233db7d28fd941b53b5cc73d9bc8",
       "pages": 71,
       "source": "lessons/lessons-3013.html"
     },
@@ -663,7 +663,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3014/v1/3014.pdf",
       "bytes": 1677492,
-      "sha256": "85ce0b609b15840b13dc3145d40b659d219cf4335479c5ccf71bb2ac9b5b1793",
+      "sha256": "c76df32daef6d0744db88e13a594d15dc9af6d0e52b7f1ff8822eeb55eea163c",
       "pages": 71,
       "source": "lessons/lessons-3014.html"
     },
@@ -675,7 +675,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3021/v1/3021.pdf",
       "bytes": 289372,
-      "sha256": "f99df3e813c76e569ab77217ae7a71ab3ac19991fcde5e55196eadec2a259cca",
+      "sha256": "559bd6c2bad157ee2adca45dc1daa527ed619a86925806d139031a009e61e91d",
       "pages": 5,
       "source": "lessons/lessons-3021.html"
     },
@@ -687,7 +687,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3022/v1/3022.pdf",
       "bytes": 259406,
-      "sha256": "2bbca0ab0525f71e59bd64a1862d59c52ac0297e21586cd5d77bc7ae46a08ea8",
+      "sha256": "34877f237957a8ed83d029d92d6d5cdd4cb77ba34715c2472064d288a7ec70c2",
       "pages": 6,
       "source": "lessons/lessons-3022.html"
     },
@@ -699,7 +699,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3023/v1/3023.pdf",
       "bytes": 718561,
-      "sha256": "f2bc07b1ae4f6144ae9cbf5f7c3cbb3ee9ae789812625875f1110dfcb71f0cfa",
+      "sha256": "e79f641ecd57507f351ecc1c7c139cf3d2f26bb061d7aef6362e1baf2cadc1a7",
       "pages": 22,
       "source": "lessons/lessons-3023.html"
     },
@@ -711,7 +711,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3024/v1/3024.pdf",
       "bytes": 1439364,
-      "sha256": "f23f0e5b08cf790357fed82f609c2ba8099a866c60381d7502bb0bf25f000da3",
+      "sha256": "76558e536e0c3b99cdcd94e5cde15965f67cc9511df6dfd3d7b3255c742e0b37",
       "pages": 20,
       "source": "lessons/lessons-3024.html"
     },
@@ -723,7 +723,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3025/v1/3025.pdf",
       "bytes": 360239,
-      "sha256": "8f991312b0e3e6f461d5c9411bf7775efb93d3a7536340fe82a25bd7397eacf8",
+      "sha256": "f83ab350a98f4c2ff24b20e6a5205c5b1d180bbcfe3f582f50725cf78e5d923b",
       "pages": 7,
       "source": "lessons/lessons-3025.html"
     },
@@ -735,7 +735,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3031/v1/3031.pdf",
       "bytes": 5358015,
-      "sha256": "bed946a308eb5a03c3e248854b76da7a68d5a38a7cbcc5c518b2f48967a2fbf4",
+      "sha256": "df89860c4a34b37fbe383e834476dd7fed604f29f87224770cd879622fe17e1d",
       "pages": 76,
       "source": "lessons/lessons-3031.html"
     },
@@ -747,7 +747,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3032/v1/3032.pdf",
       "bytes": 2002015,
-      "sha256": "fe19ef3f997d415e117fb07bfa33b1c4d4552387e64922650762e52b2fbe3916",
+      "sha256": "3a1f89b315ca2c1b3a0f9b669bea6da2f0d6cc3776278764f7725e99bf19142e",
       "pages": 77,
       "source": "lessons/lessons-3032.html"
     },
@@ -759,7 +759,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3036_REV2021/v1/3036_REV2021.pdf",
       "bytes": 311634,
-      "sha256": "7a9e609d3e12ca28fc41e41d3bc91d54fe08cb7d0f24d726563a3e3fee4193bf",
+      "sha256": "f339354dc2748ef9bc02b9720d8f338fca6d6bdcb4786a58152971de1de4c679",
       "pages": 5,
       "source": "lessons/lessons-3036_REV2021.html"
     },
@@ -771,7 +771,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3041/v1/3041.pdf",
       "bytes": 1015804,
-      "sha256": "8e9fa861b84164e7148fa2f59e2f5d4a72e2b4d42fcf7cc50b34c15c3f6b81ca",
+      "sha256": "08c73af289d77cc7cdd19388d5e3344049793a5cf55e94c8695e0414cb13d1d4",
       "pages": 27,
       "source": "lessons/lessons-3041.html"
     },
@@ -783,7 +783,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3042/v1/3042.pdf",
       "bytes": 953735,
-      "sha256": "39418612e85c7190e4d518e6ec48b7e6366024aa6b770fb914493e93fca1ea72",
+      "sha256": "62d443db00e248b676bb7a2584a4df0788f7dda4a0c7ddacae6e4b25b14efdc1",
       "pages": 26,
       "source": "lessons/lessons-3042.html"
     },
@@ -795,7 +795,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3043/v1/3043.pdf",
       "bytes": 752746,
-      "sha256": "d7beac3653f75096b07ab7933f3497985d1385f691494116ee52486c934fcf6b",
+      "sha256": "4272a8902625dd54dd58a41208db5bb68cbcb14983a8e67e5eae68bdfcb9d997",
       "pages": 31,
       "source": "lessons/lessons-3043.html"
     },
@@ -807,7 +807,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3044/v1/3044.pdf",
       "bytes": 1160331,
-      "sha256": "25f6cbbed3399b08730e57403fa19976984ce12ae95f075dc36d8712f20b99bf",
+      "sha256": "a39d903bd9fbcea069f19344ea1653bad86bdd84e43e495ff3d0d63b1a27912c",
       "pages": 50,
       "source": "lessons/lessons-3044.html"
     },
@@ -819,7 +819,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3045/v1/3045.pdf",
       "bytes": 831645,
-      "sha256": "7ff48e06add08573f3cf815550876df0a91d10431da282f8f53cb3bd2aa21b6f",
+      "sha256": "a5e3cd39556075f88eda5355f0625f535c9b4baf5f99eb8f3caa6fe68b9849f0",
       "pages": 23,
       "source": "lessons/lessons-3045.html"
     },
@@ -831,7 +831,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3046/v1/3046.pdf",
       "bytes": 820799,
-      "sha256": "c1870230ec1b6609314198e2e777d063c4c643ff3f26d7c1fce17fe42bcc8dd2",
+      "sha256": "d7e8e532a13d42ddda6e7751d18f28ea8dd48504f2bb693fd32c16f98ddb477b",
       "pages": 23,
       "source": "lessons/lessons-3046.html"
     },
@@ -843,7 +843,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3047/v1/3047.pdf",
       "bytes": 814680,
-      "sha256": "303d7797239eb6a3f1bc05fdd95ebe175554d528ce44daf69d735e5bebec29c4",
+      "sha256": "f651947181a70160115c58b519174c13ecd03f846215c74fe2cd0d31ed5b67f8",
       "pages": 23,
       "source": "lessons/lessons-3047.html"
     },
@@ -855,7 +855,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3048/v1/3048.pdf",
       "bytes": 1449225,
-      "sha256": "364bf770157fc35294ba8cd38d41048fce7c507b48784f3e80940460e16e5429",
+      "sha256": "0ae4364071f9903e2cef2a1e49701f4a89f553eb1bb3a8ea5a15dda4068f47d3",
       "pages": 17,
       "source": "lessons/lessons-3048.html"
     },
@@ -867,7 +867,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3049/v1/3049.pdf",
       "bytes": 1125144,
-      "sha256": "c7955e298acfb2fed43d6267d688f71a95906e297ed809647d939eb38634d3bc",
+      "sha256": "2c7639006a55d392ce2f59fce9ea98724e9931fc13ae16e4aaac2c42ed15efd3",
       "pages": 19,
       "source": "lessons/lessons-3049.html"
     },
@@ -879,7 +879,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/3132/v1/3132.pdf",
       "bytes": 1307872,
-      "sha256": "983f8d9ea6e5fafc78ec2dda14ed9a0c4aae696c6265cb5ce1a267e8eb239a48",
+      "sha256": "3a5d40734f4d5b009c70e75e791b56e2100f2de6de81904e773b3981c414cc4f",
       "pages": 76,
       "source": "lessons/lessons-3132.html"
     },
@@ -891,7 +891,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4001/v1/4001.pdf",
       "bytes": 573882,
-      "sha256": "6b3cdacc21eb5c7eb6d1ef51f2d4051ad66d8fc104b5ab29b45883e2bd862acb",
+      "sha256": "8eecff021b955d7a31badee188bc4749769a86e3a055ed9337e0ff8edd06e408",
       "pages": 20,
       "source": "lessons/lessons-4001.html"
     },
@@ -903,7 +903,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4006/v1/4006.pdf",
       "bytes": 483009,
-      "sha256": "7aeadf0815df63378b90dbd9e335e1a4da6d7fda3c97013a89d48f5dc98cb5aa",
+      "sha256": "3cd91b706d98e9bc5113e91173488d9b9d9d54e75e2e76bfbd77578f71053a14",
       "pages": 11,
       "source": "lessons/lessons-4006.html"
     },
@@ -915,7 +915,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4007/v1/4007.pdf",
       "bytes": 356321,
-      "sha256": "c917ff9c222e4078d397ca2cadb20999cc787d20f6b9a673d510da2011441fc7",
+      "sha256": "3788d55bf0d15a17383d24781f1d7250c9a9901cc123283c02c55a2136e825e5",
       "pages": 12,
       "source": "lessons/lessons-4007.html"
     },
@@ -927,7 +927,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4009/v1/4009.pdf",
       "bytes": 482106,
-      "sha256": "05354cf194358584e7ec41b3cf3dd78def77828e3bfe321decf1ad0e2fcf5038",
+      "sha256": "7e8839a710614e1c9bfcb79a843741cdfbf52b2a53f53bf7ac53b7bc5c0bfb54",
       "pages": 11,
       "source": "lessons/lessons-4009.html"
     },
@@ -939,7 +939,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4011/v1/4011.pdf",
       "bytes": 1677524,
-      "sha256": "b9b37eb288d304efe440afb33fc751527a4a84adef9aff1e56ddfa3c696d05c1",
+      "sha256": "92d3966083da78123403f7d6c057c1121aca0bf63ecbf10fe30dd7987013745e",
       "pages": 71,
       "source": "lessons/lessons-4011.html"
     },
@@ -951,7 +951,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4012/v1/4012.pdf",
       "bytes": 1678158,
-      "sha256": "1afad9de8150cbb827a490f6e55580b83c874b38555d01b10c0e5bce93f85250",
+      "sha256": "5d5ea74952f1e95d89c600a1493e38e900f9da6ee6268592429dcc738aee5f97",
       "pages": 71,
       "source": "lessons/lessons-4012.html"
     },
@@ -963,7 +963,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4013/v1/4013.pdf",
       "bytes": 1678377,
-      "sha256": "5a220650e2400102c6ab30af476fc8fe9c98674dba7142d0a84271cc9eed900b",
+      "sha256": "12f48d053d319f1a54a27383424d348348c4454879c6933ecf68339f9b7368f5",
       "pages": 71,
       "source": "lessons/lessons-4013.html"
     },
@@ -975,7 +975,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4021/v1/4021.pdf",
       "bytes": 452436,
-      "sha256": "3e30e77ac62539a63cd240651b042940f31dbb0256f219a55533edd37ed5e939",
+      "sha256": "e2bfdd57605a3c8417d27c4fcb16b1f12b81177f115bf5fafd991246db6ceb54",
       "pages": 12,
       "source": "lessons/lessons-4021.html"
     },
@@ -987,7 +987,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4022/v1/4022.pdf",
       "bytes": 1233963,
-      "sha256": "fefbfbb4f02208c06e70e36835913cfb0cfd9b85b1e009a6448f702d3ebf9dfe",
+      "sha256": "6c1b035b77ae730d1bb6da8991fa759ad938edbc69ca209c3ce0df5e3044b10a",
       "pages": 17,
       "source": "lessons/lessons-4022.html"
     },
@@ -999,7 +999,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4023/v1/4023.pdf",
       "bytes": 759179,
-      "sha256": "23c52027531b00754997be055be58d4eb2da785bd1da43cf35a15173d30cfa0d",
+      "sha256": "dca8829ab08aece149776efe407dd500361aa1af0d2614080a2d08ba9531d621",
       "pages": 14,
       "source": "lessons/lessons-4023.html"
     },
@@ -1011,7 +1011,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4024/v1/4024.pdf",
       "bytes": 483883,
-      "sha256": "1c42fa0d1e7b0cea76cb0c840012c21503f3f0a4e40002ddf27ade1ce21a0a63",
+      "sha256": "f37ad9529117da043903692b836f5e937453b706e8a7c402b084fa5ea44a0f0e",
       "pages": 18,
       "source": "lessons/lessons-4024.html"
     },
@@ -1023,7 +1023,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4031/v1/4031.pdf",
       "bytes": 950390,
-      "sha256": "e1c7c8e6fb1228d24b0d3563e7d7cfd47663b7fae3974733a25502b19b78d0d0",
+      "sha256": "9a724758374af587a729fade81a23f951f9ff00634648d23e39d50ec61b38285",
       "pages": 25,
       "source": "lessons/lessons-4031.html"
     },
@@ -1035,7 +1035,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4032/v1/4032.pdf",
       "bytes": 1673670,
-      "sha256": "1bdac1ce740ac9ef3a917fccffd34fc06ac0b2aef8aef4d2fb0a6d245271966f",
+      "sha256": "6c138c88884b8dbca68c9fc383558cb8bd0037f921171554321896100e0e4171",
       "pages": 71,
       "source": "lessons/lessons-4032.html"
     },
@@ -1047,7 +1047,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4041/v1/4041.pdf",
       "bytes": 986185,
-      "sha256": "f52ee23cc38c5f73337920770535ccc88ef85d40d3179fe78c8110c7f4e7e2a9",
+      "sha256": "725c67caa1884f3c62d61234666ecfe0f171dc90287bfc4dd5a335ffde7ec6cc",
       "pages": 26,
       "source": "lessons/lessons-4041.html"
     },
@@ -1059,7 +1059,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4042/v1/4042.pdf",
       "bytes": 825394,
-      "sha256": "0d0c7895a97415c0edbc8ee90eefc5745110a9622a4c0ef4433ffd83ba107fe3",
+      "sha256": "f4c6ab731c2cdefde34cd83f5a00696927b3ff022afec522aa5f6ede7d53b295",
       "pages": 18,
       "source": "lessons/lessons-4042.html"
     },
@@ -1071,7 +1071,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4043/v1/4043.pdf",
       "bytes": 488328,
-      "sha256": "bd9d39130aeafcb34586425c875fbebb2d16eebe91355153a5780eea50e4b491",
+      "sha256": "88209fefffaa9840bb749ed39692e371ed3dd83f45b1aba8c9ad3efaf6fee42b",
       "pages": 13,
       "source": "lessons/lessons-4043.html"
     },
@@ -1082,8 +1082,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4101/v1/4101.pdf",
-      "bytes": 555610,
-      "sha256": "ccc3b19f17ac8c1e585ece0f40099f588fae2a909e9232f31d6c200e106937c2",
+      "bytes": 556057,
+      "sha256": "72a16d85975c360d5a25f940a6b5aeeb9e8dd5e1dc2f414fbe4b8b71fb664b75",
       "pages": 33,
       "source": "lessons/lessons-4101.html"
     },
@@ -1095,7 +1095,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4102/v1/4102.pdf",
       "bytes": 322618,
-      "sha256": "3df04345e1bdc66c2d259f58ecf2729a37339843694456315cbdcc1be2262498",
+      "sha256": "8e965500ee210ad5dbd8e1ccbbd85be1f523edbb240054ad78899a08ed315910",
       "pages": 10,
       "source": "lessons/lessons-4102.html"
     },
@@ -1107,7 +1107,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/4103/v1/4103.pdf",
       "bytes": 337732,
-      "sha256": "213be7e98551d2b94254a6199b16695ce6ec3a088d899d437ce1bc70ba3efd27",
+      "sha256": "acccdc582a0a1b3fb570687d6ed1bf5bdf4ad1e86ab8904f19b50668fb50479c",
       "pages": 9,
       "source": "lessons/lessons-4103.html"
     },
@@ -1119,7 +1119,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5001/v1/5001.pdf",
       "bytes": 307518,
-      "sha256": "3246361f50e18023ece09abbb384fd6de58fd23b634eed870a74c3cb0d18e616",
+      "sha256": "99a36ac9de9795ba9d9960b20082ab8dda4f1098ff32ffcc19b0cad5612367e0",
       "pages": 6,
       "source": "lessons/lessons-5001.html"
     },
@@ -1131,7 +1131,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5002/v1/5002.pdf",
       "bytes": 482496,
-      "sha256": "3b4c955d66b3cfe6bb5e419efd647db4ad6f52cf482cde7ae2ff1b3029ee3e5a",
+      "sha256": "539e15e058539bedd02ceb43d0701931b33bb201d3bac787803cea7ab86e9a9d",
       "pages": 11,
       "source": "lessons/lessons-5002.html"
     },
@@ -1143,7 +1143,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5011/v1/5011.pdf",
       "bytes": 1673925,
-      "sha256": "607ca0070a2b10c43cbddab5613c20e94136c111332d2c2e201f9b41e6b7b823",
+      "sha256": "99f62ebe50431af4d1904e9b25fb1c6acbc66ee7f04e5d7557a593174fc8effe",
       "pages": 71,
       "source": "lessons/lessons-5011.html"
     },
@@ -1155,7 +1155,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5012/v1/5012.pdf",
       "bytes": 1678124,
-      "sha256": "00771f470e198f22793a2e3e7e463502c2f8a41785488383d0771abaea5522d7",
+      "sha256": "00904e5178f38fb3e514813d4dd3fe3a3654c6ccc74034ae7f97fb6d0bc2cf67",
       "pages": 71,
       "source": "lessons/lessons-5012.html"
     },
@@ -1167,7 +1167,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5013/v1/5013.pdf",
       "bytes": 1677721,
-      "sha256": "d7d9e18fa45f08b2392b696b7cc7ddb04e2ea3b670a5bbc1317c5e98bf0bf57b",
+      "sha256": "7a496cfbeacfdc6577418df8df42fbfe38337693141e1f18219a4fc621efa808",
       "pages": 71,
       "source": "lessons/lessons-5013.html"
     },
@@ -1179,7 +1179,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5014A/v1/5014A.pdf",
       "bytes": 1677842,
-      "sha256": "e8913f3362964a6b7ae1f9e5d088cdee79da31cdfc08cdd26946e4bd20f05370",
+      "sha256": "67624538e4980bb6203424d16f274bda086b8d3f932898ca5027912b4972f7fa",
       "pages": 71,
       "source": "lessons/lessons-5014A.html"
     },
@@ -1191,7 +1191,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5014B/v1/5014B.pdf",
       "bytes": 1678092,
-      "sha256": "354f6075cdf15613144af22702c28f9d48cd213edde03173219bad39d9eb97ed",
+      "sha256": "76602e9fb6ad70d0f1012b2bc009fa37c5d4b968cdc104dac3361e3b80cc1c9b",
       "pages": 71,
       "source": "lessons/lessons-5014B.html"
     },
@@ -1203,7 +1203,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5014C/v1/5014C.pdf",
       "bytes": 1677762,
-      "sha256": "4075cf587fa62c1469940cf81e92c672a37ed8112c6012436a3aac3096c260bb",
+      "sha256": "7ef077beda5d64c7126119c8d557b7f4a72c771766f6d494848b3f0749f3039a",
       "pages": 71,
       "source": "lessons/lessons-5014C.html"
     },
@@ -1215,7 +1215,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5021/v1/5021.pdf",
       "bytes": 290879,
-      "sha256": "91555de138ce109ad8fb2d1a654563753824b4917f2a3faf1011b87e722987b3",
+      "sha256": "fcaa3f8080ee4039d196bd82136698366acc9a35a1bbe795d27640b279a7ff90",
       "pages": 6,
       "source": "lessons/lessons-5021.html"
     },
@@ -1227,7 +1227,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5022/v1/5022.pdf",
       "bytes": 288770,
-      "sha256": "0378f329dc7f26b8c1e05c9866912169a74665c0ba1bac6ef2b3db63a61fcc0d",
+      "sha256": "8c931dd2d01802913a034bdda19891c450385c793f071f90ca6a362a3799cd8d",
       "pages": 6,
       "source": "lessons/lessons-5022.html"
     },
@@ -1239,7 +1239,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5023A/v1/5023A.pdf",
       "bytes": 285251,
-      "sha256": "2ab3bee6de8ac4537704e67f37587ede707a0e24808798980e1b281c50cfe33d",
+      "sha256": "510e6f7cdc62be9f0ce70bdcaf934822d21e6da7416c5494b3ee52b616ede028",
       "pages": 6,
       "source": "lessons/lessons-5023A.html"
     },
@@ -1251,7 +1251,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5023B/v1/5023B.pdf",
       "bytes": 275500,
-      "sha256": "0940866b84af25273bde6ead1fc1364d2273a273f0343e862134b6e65f5e7058",
+      "sha256": "5ebb623cc39e7e35d4ed51d9eb3ea0e9d42e99f1f42a1a9763db8a1b3c1747f1",
       "pages": 6,
       "source": "lessons/lessons-5023B.html"
     },
@@ -1263,7 +1263,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5023C/v1/5023C.pdf",
       "bytes": 278032,
-      "sha256": "4f6bf96d26e36635580a36bbf420b16baf539422d72a8b5fa31c96ea43f7edc6",
+      "sha256": "744035cb3038c00bee08a6cb14b17aeb4bb073de711d74f36d5b3de395b18c0e",
       "pages": 6,
       "source": "lessons/lessons-5023C.html"
     },
@@ -1275,7 +1275,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5027/v1/5027.pdf",
       "bytes": 278354,
-      "sha256": "fe28af3e5f3f171e8917a63a103f3fc4d4730d06e62266c5e6d64fd42e0e244d",
+      "sha256": "7c456e145e04efbb8410fbf3ad90aad8ae2f1f3b637360c18016cb3f0f00c3b1",
       "pages": 6,
       "source": "lessons/lessons-5027.html"
     },
@@ -1287,7 +1287,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5031/v1/5031.pdf",
       "bytes": 1857165,
-      "sha256": "585fb4375ad1723dbaf90b0598de394772fee3dd6b1cefba0fc07b7e9be58663",
+      "sha256": "bf0443fdf8a13f0408d9c0cbb922489c9f7459a1c522e97bff52ee42065cb812",
       "pages": 35,
       "source": "lessons/lessons-5031.html"
     },
@@ -1299,7 +1299,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5032/v1/5032.pdf",
       "bytes": 380391,
-      "sha256": "e4ec9c417f9cccc926017776f997ef13adac0c36311941560fb7cc5233113311",
+      "sha256": "876e568b65afbc743490f99e7e6cf8c353f0f6a0c67ee24682b060d50f9c0867",
       "pages": 9,
       "source": "lessons/lessons-5032.html"
     },
@@ -1311,7 +1311,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5041/v1/5041.pdf",
       "bytes": 960844,
-      "sha256": "7650663e95c0abfdb17c3a915207283b2ad9676dd9360f7702e95643db2929e1",
+      "sha256": "deac26f66a4b8d58f7517ca11e45f6d6193d14cbae8c341200a672a79c01b9ac",
       "pages": 20,
       "source": "lessons/lessons-5041.html"
     },
@@ -1323,7 +1323,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5042/v1/5042.pdf",
       "bytes": 983295,
-      "sha256": "60de5806eb3a31b0ea4e5ca63f2cc4f471fedb908e17f5b4b60dabda2fc1468a",
+      "sha256": "4f1a46c49e2f2559917f2ba21ad584c2f7a6199db70af0255525e32f9403a426",
       "pages": 26,
       "source": "lessons/lessons-5042.html"
     },
@@ -1335,7 +1335,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5043/v1/5043.pdf",
       "bytes": 836667,
-      "sha256": "09d3c273d4b70f6671ffffa7df0d906971dca9e974202b7a00b6d741a7f70b34",
+      "sha256": "fed71dbd8469d27b6cbd7dddd98d46f81d151bda9671658bfaafe967bec483ec",
       "pages": 18,
       "source": "lessons/lessons-5043.html"
     },
@@ -1347,7 +1347,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/5043A/v1/5043A.pdf",
       "bytes": 836667,
-      "sha256": "4250f34f6376fbf4bff7845060e1726391eedee6bf7b82149ed58b09bd03dc6b",
+      "sha256": "a46459a2dbd0b362a542a205817f9381acc5794aa529685189cc2e70561c0100",
       "pages": 18,
       "source": "lessons/lessons-5043A.html"
     },
@@ -1359,7 +1359,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6001/v1/6001.pdf",
       "bytes": 417881,
-      "sha256": "dedb15546637ce798a47e860b77ac447c8eec5a97b0d76a8122b45af0ca90eaf",
+      "sha256": "d45dc4b5067a6f7d85bd59d7921aee7b6389321256b269114e1b95c1a4aad456",
       "pages": 16,
       "source": "lessons/lessons-6001.html"
     },
@@ -1371,7 +1371,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6002/v1/6002.pdf",
       "bytes": 604430,
-      "sha256": "4cc14a88b33cfa7834350a49e5c31cfa93517f95f7c01a2ad9ef77ab62c1c862",
+      "sha256": "cf6e688a3cda42c4e6ca0478ef4974e5ced27aea00441f459c021646c7e4da59",
       "pages": 24,
       "source": "lessons/lessons-6002.html"
     },
@@ -1383,7 +1383,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6007/v1/6007.pdf",
       "bytes": 410499,
-      "sha256": "10fd2ae59908c812d26d0ec266e26b3b3df50ad36264055e3ec6c627c21316fe",
+      "sha256": "fa0113f13a773caa801df792f2aa103db53e58e124f5d46bc4ac95d34af1068a",
       "pages": 16,
       "source": "lessons/lessons-6007.html"
     },
@@ -1395,7 +1395,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6009/v1/6009.pdf",
       "bytes": 412845,
-      "sha256": "2458768a9e1d38ac3b937aa2730ee47b56bd37183f8028c82437f28f17b2adc8",
+      "sha256": "ef999d90bc4865a178dbb8ff4a771342854b2bd2d755963df26316878a0f0b58",
       "pages": 16,
       "source": "lessons/lessons-6009.html"
     },
@@ -1407,7 +1407,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6011A/v1/6011A.pdf",
       "bytes": 1677542,
-      "sha256": "baf09ce68306369360c5155effa86c8d3d05c61eef80a84c0cce06668f1f1f1a",
+      "sha256": "e0a42c825d700d3916969e9e46594950a8362aea85f0f4578bbdce9739db83fb",
       "pages": 71,
       "source": "lessons/lessons-6011A.html"
     },
@@ -1419,7 +1419,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6011B/v1/6011B.pdf",
       "bytes": 1677589,
-      "sha256": "58ed2a4c55ce64496b16ec24defbdd1ee735282078333dfb9118a16d4c47dc70",
+      "sha256": "5f53fcd15340c8b3284733d7666c3f08c4abf4dabfa332789e4d6065e922125b",
       "pages": 71,
       "source": "lessons/lessons-6011B.html"
     },
@@ -1431,7 +1431,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6011C/v1/6011C.pdf",
       "bytes": 1677427,
-      "sha256": "04435cb60400f897dfd45a25a55bfb2fa5f91d0796bd7cb88447ae0c4228fc47",
+      "sha256": "636a1908b8784a0740163bbd4f9321504e0f3d87b3e823b415e90fa45c9abae4",
       "pages": 71,
       "source": "lessons/lessons-6011C.html"
     },
@@ -1443,7 +1443,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6012A/v1/6012A.pdf",
       "bytes": 1677543,
-      "sha256": "b401635f24f995996f99713a26e3f073395ff0624265f50eec830c4b24ba14fc",
+      "sha256": "438452c033f2e9fc955ef583dcfb41ba948258b8c25412bfd0472f06890d1a6a",
       "pages": 71,
       "source": "lessons/lessons-6012A.html"
     },
@@ -1455,7 +1455,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6012B/v1/6012B.pdf",
       "bytes": 1677602,
-      "sha256": "95a44524e84fb357fc557e488f1089979f558bdbae9d465f1dfbb2c3cbccd241",
+      "sha256": "ba06794237c728ba2fae24ce6eb50b6caff4401d37cc7bd6946143c120508b92",
       "pages": 71,
       "source": "lessons/lessons-6012B.html"
     },
@@ -1467,7 +1467,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6012C/v1/6012C.pdf",
       "bytes": 1677665,
-      "sha256": "4f84aae62d5009d0b50e8663cd23abd7a537e0ba21543d09938c63300eea03de",
+      "sha256": "bdfe98ddbf2452bb5adde0df63d64e03cf83e9ad56d66dbc81bc48aa3b27b36a",
       "pages": 71,
       "source": "lessons/lessons-6012C.html"
     },
@@ -1479,7 +1479,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6012D/v1/6012D.pdf",
       "bytes": 1677356,
-      "sha256": "c62e8b28255071104c2fbe55c14bff4c987d20f8ff00e1bc1d0c6fe53e361c86",
+      "sha256": "e733d77ca95733aa3e504452b87c1d0793d703715866d1cd051e7b198d746297",
       "pages": 71,
       "source": "lessons/lessons-6012D.html"
     },
@@ -1491,7 +1491,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6031/v1/6031.pdf",
       "bytes": 1677525,
-      "sha256": "d54df19648273766c3d264eaa42d1b034dca1796626d97f1c111c6a853f8f879",
+      "sha256": "c9ed4f89d55fae12bf836686d8dc69be4d371a4c5ccee00fd68c3f5d800eac25",
       "pages": 71,
       "source": "lessons/lessons-6031.html"
     },
@@ -1503,7 +1503,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6031A/v1/6031A.pdf",
       "bytes": 433294,
-      "sha256": "f63768803e9a9eb6ce3af8f85bad527d1d6d75921a63debca57b82ad357a87d8",
+      "sha256": "197989db680d03a0aad983db91ad9fc12f3decc61c39be76cf746bab32afa1b1",
       "pages": 8,
       "source": "lessons/lessons-6031A.html"
     },
@@ -1515,7 +1515,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6031C/v1/6031C.pdf",
       "bytes": 566695,
-      "sha256": "fbecc093cb587b84a56c2e18abfc441bd8b4a16253b5fca6f0ca34d5091d6942",
+      "sha256": "c30e9be635a392681d5df559582240652210ef6bf05b5384be1db79eabf304d1",
       "pages": 13,
       "source": "lessons/lessons-6031C.html"
     },
@@ -1527,7 +1527,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6031D/v1/6031D.pdf",
       "bytes": 515989,
-      "sha256": "40608a28b5c0171f014553ed64082af624c38b27cb6e6d1549cdb923093fbbb9",
+      "sha256": "cad38e39de3d0f06f538c945dfe33852e79cb4ef14579d7ccb3aec73f2123c1f",
       "pages": 11,
       "source": "lessons/lessons-6031D.html"
     },
@@ -1539,7 +1539,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6032/v1/6032.pdf",
       "bytes": 1677585,
-      "sha256": "9f33964c12ca91330d66c28f7811e14b2234821f8c16322266eed9953bd70b24",
+      "sha256": "e1d632cd7121407cea582ed72374e62be3ae9876401e74fa5212ced617997746",
       "pages": 71,
       "source": "lessons/lessons-6032.html"
     },
@@ -1551,7 +1551,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6032A/v1/6032A.pdf",
       "bytes": 516253,
-      "sha256": "be40c45d82a90b7df0bcbe3c93ae4fdf0c8166d056c32cda50dc119a0379b3de",
+      "sha256": "9cf5c25ce892e75febca95687f52d3bb3df37019b402b4f656e1f630b82cd966",
       "pages": 11,
       "source": "lessons/lessons-6032A.html"
     },
@@ -1563,7 +1563,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6032B/v1/6032B.pdf",
       "bytes": 539667,
-      "sha256": "b4bfc5d689fef74af8be12ebebda37ba7e83e17bc5f3a72ff85ad228c8cd5530",
+      "sha256": "4ef0e6bef38391678218698e633f947251a4f11151a8c121ea45e3a9dcc8f9e2",
       "pages": 12,
       "source": "lessons/lessons-6032B.html"
     },
@@ -1575,7 +1575,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6032C/v1/6032C.pdf",
       "bytes": 553880,
-      "sha256": "979c6d775de5b220deb8232fb621968ba2bda37ead47622d4b131419c486e345",
+      "sha256": "c6ee9253c9f3946a371fde8b19fbeb72aa7a5ac2eeeafb77ff72f0e242166a59",
       "pages": 13,
       "source": "lessons/lessons-6032C.html"
     },
@@ -1587,7 +1587,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6032D/v1/6032D.pdf",
       "bytes": 525261,
-      "sha256": "1144ac9343f190be5f0d8a91e6cbfd209577dd1274aec9e6e9bce2cf7307c9fe",
+      "sha256": "f148e0bbeaffe1ea031de15e8ac383ecb09727f036810a440618a1abaad08e46",
       "pages": 11,
       "source": "lessons/lessons-6032D.html"
     },
@@ -1599,7 +1599,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6041/v1/6041.pdf",
       "bytes": 750346,
-      "sha256": "76a60a52378b4d079a40b99a94f344116ccc23f7f8e3c7c700d98f8c5d9fe425",
+      "sha256": "25d0eb2ef2d7bd2b48882efb37b6f1189c5708a843ab6a22eb556a8ca29efe1e",
       "pages": 15,
       "source": "lessons/lessons-6041.html"
     },
@@ -1611,7 +1611,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6041A/v1/6041A.pdf",
       "bytes": 474222,
-      "sha256": "2f1b549d576bce1d2e55382d1e1e9e268c370daaf6e112d2a64ea8f2563df42b",
+      "sha256": "6e180e6c17519f64d3616467e7b464ba7d4d329d0209bd778aaad0f21daa826b",
       "pages": 14,
       "source": "lessons/lessons-6041A.html"
     },
@@ -1623,7 +1623,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6041B/v1/6041B.pdf",
       "bytes": 787279,
-      "sha256": "62642d617e1e928de8014f3a43999b7356aa1890d8621ce3be8f204a85aae513",
+      "sha256": "57b9eec1b3a9ffcba9429c187cc079baccab1955a87830222bdb544c1cf888a8",
       "pages": 16,
       "source": "lessons/lessons-6041B.html"
     },
@@ -1635,7 +1635,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6041C/v1/6041C.pdf",
       "bytes": 510388,
-      "sha256": "3c838f2779410b06cdc9482192737c5ce842ee5062197865563506ffe64f3e11",
+      "sha256": "b23ee80b5e72a857d7ac0639c14ce244e3a212d58983d78a79316c69968767fc",
       "pages": 9,
       "source": "lessons/lessons-6041C.html"
     },
@@ -1647,7 +1647,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6042/v1/6042.pdf",
       "bytes": 1677560,
-      "sha256": "7dc84f48980f19f86b355d24e4dca64906b07f17fb36f8476e03b0bb6efd409f",
+      "sha256": "4b8f3955fe37287a8da9c449bd39fc019f20b86cab79dce227c3949c15e75319",
       "pages": 71,
       "source": "lessons/lessons-6042.html"
     },
@@ -1659,7 +1659,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6042A/v1/6042A.pdf",
       "bytes": 229563,
-      "sha256": "a9b7b1f323b6a3351f2d65296715d96cf8ed3a4eba8495a369f6708a0acd9c29",
+      "sha256": "70477fc6f34d7716b2d584c69cbc5c301f33672cb4adec15518c28349c3ab254",
       "pages": 4,
       "source": "lessons/lessons-6042A.html"
     },
@@ -1671,7 +1671,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6042B/v1/6042B.pdf",
       "bytes": 873190,
-      "sha256": "826625430e5a8188379a93e2da13c6f51d3f0966804a0db8dfc76aee2829e6b9",
+      "sha256": "5dca178b535ed9db4836ca5bbacc05cbda01dd99fd32517eb6d840f8e4ca53d6",
       "pages": 17,
       "source": "lessons/lessons-6042B.html"
     },
@@ -1683,7 +1683,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6042C/v1/6042C.pdf",
       "bytes": 815256,
-      "sha256": "c3abd58393a09577de0e477ffa8910d36d4632f55e690f1278a6d65dbd29e0c9",
+      "sha256": "6e74dd73d7479718cf7acd919b3a3676723c6c852356d806c4eae9ee5cffba66",
       "pages": 15,
       "source": "lessons/lessons-6042C.html"
     },
@@ -1695,7 +1695,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6042D/v1/6042D.pdf",
       "bytes": 266864,
-      "sha256": "66ec6a079e58c5bf310fc42edbaa0545691e720d9e8203d08afc0257e0bb2b71",
+      "sha256": "b7f317a75f7625fd1eb069b6bd150773631c526b69cd6e921a6840c5d729da6d",
       "pages": 6,
       "source": "lessons/lessons-6042D.html"
     },
@@ -1707,7 +1707,7 @@
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6043/v1/6043.pdf",
       "bytes": 1677604,
-      "sha256": "baa780d663938b8f0c0a2fd4041d10f8577146b9905a5ec2c07c9ce100ec79a2",
+      "sha256": "d948ac8aeae91bd9a242f9c7b79c9dc00e8409062408b5e3899febe6818167b9",
       "pages": 71,
       "source": "lessons/lessons-6043.html"
     },
@@ -1718,8 +1718,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6061A/v1/6061A.pdf",
-      "bytes": 441285,
-      "sha256": "e691e33d4be257a08a30582f333c8801632c10a10e16f7e656c7d3fb542f1c9a",
+      "bytes": 441436,
+      "sha256": "55e30ad24d5cc67ec2d7599360454bc6da3fb0a67bba3c98a4cf21c9a69b16f1",
       "pages": 17,
       "source": "lessons/lessons-6061A.html"
     },
@@ -1730,8 +1730,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6061B/v1/6061B.pdf",
-      "bytes": 448136,
-      "sha256": "fd7cd67933e9fe915598eb26b3c3374c0ba115c1c60781c32c32ff22a79f17f3",
+      "bytes": 448025,
+      "sha256": "d7c013099413553f30c76a8ee7aab53d17642e223d1fbb2fba31f4226e85927c",
       "pages": 17,
       "source": "lessons/lessons-6061B.html"
     },
@@ -1742,8 +1742,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6061C/v1/6061C.pdf",
-      "bytes": 439642,
-      "sha256": "ab3d375d6f49bc8cb8b4b7c570d46f186ec229ad2235e8a6bc2d238e24ea4dd2",
+      "bytes": 439480,
+      "sha256": "700213b8cc62de17b21101b066f263127b2e1c043be962f77bd557d52aa97ccb",
       "pages": 17,
       "source": "lessons/lessons-6061C.html"
     },
@@ -1754,8 +1754,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6062A/v1/6062A.pdf",
-      "bytes": 447580,
-      "sha256": "db61ba0a29122cae721026f89efd48c115bcb9d1560306c48827ec504d6459c8",
+      "bytes": 447774,
+      "sha256": "00cb93125414d76b7aa5f18671abeb45eb243d20c8d94f38abcf724c0085a98f",
       "pages": 17,
       "source": "lessons/lessons-6062A.html"
     },
@@ -1766,8 +1766,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6062B/v1/6062B.pdf",
-      "bytes": 441566,
-      "sha256": "ec16debb8d4065a4f6e721c2d3590852a4cac014f173b3ec9518b54a0debe584",
+      "bytes": 441436,
+      "sha256": "2782bd36f1fdc9bc917648b1bc54c209489cf390ffe078506091d4818cf8afa3",
       "pages": 17,
       "source": "lessons/lessons-6062B.html"
     },
@@ -1778,8 +1778,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6067/v1/6067.pdf",
-      "bytes": 438745,
-      "sha256": "58194aa7265ff36a9ddf7b2b18c7aa801c5c727a57f8433512311e3e76c08252",
+      "bytes": 438900,
+      "sha256": "b4559bb36c9a0362e7345a267a2f6283b9810b9d748423d4e88adf698ec9db42",
       "pages": 17,
       "source": "lessons/lessons-6067.html"
     },
@@ -1790,8 +1790,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6068/v1/6068.pdf",
-      "bytes": 438228,
-      "sha256": "7a13a1165e23146b55f9199eea1b0fc918d81735a9456f37650c2585a83a91fb",
+      "bytes": 438067,
+      "sha256": "de0bb7123a858d62fbbd82c03306c279b65b59ef5a93fc6cfbe51cc4b231d9cd",
       "pages": 17,
       "source": "lessons/lessons-6068.html"
     },
@@ -1802,8 +1802,8 @@
       "version": "v1",
       "status": "published",
       "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/6069/v1/6069.pdf",
-      "bytes": 439005,
-      "sha256": "b8507327e86a7a46a857e7fc7acd8d8b4be9e6b90fab4d978cb05b7ac9f0cf6b",
+      "bytes": 438860,
+      "sha256": "73ae3cee6c0e00f4ab0275721f749a521b1b42e34d723b3b589a2a91473d9e34",
       "pages": 17,
       "source": "lessons/lessons-6069.html"
     }

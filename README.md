@@ -33,6 +33,37 @@ https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/<revis
 
 The POLY PMNA website consumes the manifest rather than constructing filenames from display titles. If an exact published entry is unavailable, the website keeps its existing HTML print-to-PDF fallback.
 
+## Official Sources
+
+### SITTTR (State Institute of Technical Teachers' Training & Research, Kalamassery)
+
+**Primary official source** for diploma syllabus and model question papers.
+
+| Resource | URL |
+| --- | --- |
+| SITTTR Official Website | https://sitttrkerala.ac.in/ |
+| SITTTR Academic / Courses | https://sitttrkerala.ac.in/index.php?r=site/home |
+| Diploma Syllabus – Revision 2015 | https://www.sitttrkerala.ac.in/index.php?r=site%2Fdiploma-syllabus&scheme=REV2015 |
+| Diploma Syllabus – Revision 2021 | https://www.sitttrkerala.ac.in/index.php?r=site%2Fdiploma-syllabus&scheme=REV2021 |
+| Model Question Papers – Revision 2015 | https://sitttrkerala.ac.in/index.php?r=site%2Fdiploma-modelqp&scheme=REV2015 |
+| Model Question Papers – Revision 2021 | https://sitttrkerala.ac.in/index.php?r=site%2Fdiploma-modelqp&scheme=REV2021 |
+| Revision 2021 Handbook | https://sitttrkerala.ac.in/syllabus/rev2021/handbook-rev2021.pdf |
+| Revision 2021 Rules | https://sitttrkerala.ac.in/syllabus/rev2021/rules-rev2021.pdf |
+
+**Revision 2026:** Navigate through the current official SITTTR site to locate dedicated Revision 2026 syllabus/programme pages. Do not assume Revision 2026 has the same structure as Revision 2021.
+
+### Source-of-Truth Policy
+
+For every missing document, follow this order:
+
+1. POLY PMNA existing repository
+2. Official SITTTR
+3. Official Government / DTE Kerala source
+4. Other authoritative educational source
+5. Mark as MISSING if no trustworthy source exists
+
+**Never skip the SITTTR check** for diploma syllabus and model question papers.
+
 ## Automation
 
 The main `nandurpm/diploma-notes` repository renders changed lesson pages with Chromium, validates the resulting PDFs, commits them to the canonical paths in this repository, and updates the manifests. The cross-repository write requires the `PDF_ARCHIVE_REPO_TOKEN` Actions secret in `diploma-notes`.

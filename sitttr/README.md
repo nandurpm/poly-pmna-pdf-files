@@ -46,6 +46,7 @@ sitttr/revision-<year>/<document-type>/<department>/<semester>/<course-code>-<co
 Document types:
 - `syllabus`
 - `model-question-papers`
+- `lab-manual`
 
 General revision documents (rules, handbooks) are stored under `_general/`.
 
@@ -75,7 +76,7 @@ Use this page to collect and verify official model question papers for Revision 
 ### Syllabus
 
 Official SITTTR page:
-https://www.sitttrkerala.ac.in/index.php?r=site%2Fdiploma-syllabus&scheme=REV2021
+https://sitttrkerala.ac.in/index.php?r=site%2Fdiploma-syllabus&scheme=REV2021
 
 Use this as the primary official source for:
 - Revision 2021 programme schemes
@@ -269,15 +270,19 @@ Do not report a document as complete merely because an SITTTR programme page exi
 
 Only URLs that returned a readable PDF were copied. Department tables may list courses for which SITTTR has not published a PDF; those entries are excluded from the visible archive and counted in `manifests/sitttr-index.json`. Every included file was checked with `pdfinfo` and recorded with its byte size, page count, SHA-256 checksum, original source URL, and raw GitHub URL.
 
-| Revision | Document type | Candidates | Published PDFs | Not published / unavailable |
-| --- | --- | ---: | ---: | ---: |
-| 2015 | model-question-paper | 662 | 464 | 198 |
-| 2015 | syllabus | 1139 | 1113 | 26 |
-| 2021 | model-question-paper | 1465 | 964 | 501 |
-| 2021 | syllabus | 2732 | 2701 | 31 |
-| 2026 | model-question-paper | 1149 | 364 | 785 |
-| 2026 | syllabus | 2666 | 669 | 1997 |
+| Revision | Document type | Published PDFs |
+| --- | --- | ---: |
+| 2015 | model-question-paper | 464 |
+| 2015 | syllabus | 1113 |
+| 2021 | model-question-paper | 1374 |
+| 2021 | syllabus | 3461 |
+| 2026 | lab-manual | 22 |
+| 2026 | model-question-paper | 800 |
+| 2026 | syllabus | 669 |
+| general | academic-calendar | 9 |
+| general | special-docs | 73 |
+| **TOTAL** | | **7985** |
 
 See [`manifests/sitttr-index.json`](../manifests/sitttr-index.json) for the complete machine-readable index and [`manifests/sitttr-2021.json`](../manifests/sitttr-2021.json), [`manifests/sitttr-2026.json`](../manifests/sitttr-2026.json), and [`manifests/sitttr-2015.json`](../manifests/sitttr-2015.json) for revision-specific indexes.
 
-The imported archive contains **6275 validated PDFs** totaling approximately **966.8 MiB**.
+The imported archive contains **7985 validated PDFs**.

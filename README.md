@@ -21,7 +21,7 @@ Every published file must be validated as a readable PDF and recorded in the che
 
 ## Versions and updates
 
-Published PDFs must not be overwritten silently when a versioned document needs to be retained. Use a new version directory such as `v2`, then update the relevant manifest entry and website resolver policy. The current automated workflow uses `v1` for the generated archive and updates only the subject files affected by lesson HTML changes.
+Published PDFs must not be overwritten silently when a versioned document needs to be retained. Use a new version directory such as `v2`, then update the relevant manifest entry and website resolver policy. The publisher must allocate a new version directory whenever a published document changes; it must never replace an existing version in place.
 
 ## Download URLs
 

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Targeted tests for SITTTR manifest JSON files and Python scripts."""
 import json
-import os
 import sys
 import py_compile
 import hashlib
@@ -52,7 +51,8 @@ REQUIRED_TOP_FIELDS_SITTTR = {"schemaVersion", "documents"}
 
 # Notes manifests use "subjects" with a different schema
 REQUIRED_DOC_FIELDS_NOTES = {
-    "code", "title", "revision", "version", "status", "pdfUrl", "sha256",
+    "code", "title", "revision", "version", "status", "pdfUrl", "bytes",
+    "sha256", "pages",
 }
 REQUIRED_TOP_FIELDS_NOTES = {"schemaVersion", "subjects"}
 
@@ -143,7 +143,7 @@ for mf in all_manifest_files:
         continue
     # Build local file paths from entries
     local_paths = []
-    for e in entries[:20]:
+    for e in entries:
         if "path" in e:
             local_paths.append(ROOT / e["path"])
         elif "pdfUrl" in e:
@@ -154,14 +154,14 @@ for mf in all_manifest_files:
                 local_paths.append(ROOT / "NOMATCH")
     missing = [lp for lp in local_paths if not lp.exists()]
     if missing:
-        fail(f"{mf.relative_to(ROOT)}: {len(missing)}/{len(local_paths)} sampled paths missing on disk "
+        fail(f"{mf.relative_to(ROOT)}: {len(missing)}/{len(local_paths)} paths missing on disk "
              f"(e.g. {missing[0]})")
     else:
-        pass_(f"{mf.relative_to(ROOT)}: sampled {len(local_paths)}/{len(entries)} paths exist on disk")
+        pass_(f"{mf.relative_to(ROOT)}: all {len(entries)} paths exist on disk")
 
 
 # ─── 5. SHA-256 checksums: spot-check a few files ────────────────────────
-print("\n[5] SHA-256 checksum spot-check (up to 5 per manifest)")
+print("\n[5] File metadata and SHA-256 checksums")
 for mf in all_manifest_files:
     data = load_json(mf)
     docs = data.get("documents", [])
@@ -169,7 +169,7 @@ for mf in all_manifest_files:
     entries = docs if docs else subjects
     checked = 0
     bad = 0
-    for e in entries[:5]:
+    for e in entries:
         sha_expected = e.get("sha256", "")
         if "path" in e:
             fpath = ROOT / e["path"]
@@ -187,9 +187,12 @@ for mf in all_manifest_files:
         if sha_actual != sha_expected:
             fail(f"SHA mismatch for {fpath.relative_to(ROOT)}")
             bad += 1
+        if e.get("bytes") != fpath.stat().st_size:
+            fail(f"byte-size mismatch for {fpath.relative_to(ROOT)}")
+            bad += 1
         checked += 1
     if checked > 0 and bad == 0:
-        pass_(f"{mf.relative_to(ROOT)}: {checked} checksums verified OK")
+        pass_(f"{mf.relative_to(ROOT)}: all {checked} checksums and sizes verified OK")
 
 
 # ─── 6. sitttr-index.json consistency with per-year manifests ────────────
@@ -217,8 +220,62 @@ else:
     fail("sitttr-index.json not found")
 
 
-# ─── 7. Python script syntax check ───────────────────────────────────────
-print("\n[7] Python script syntax check")
+# ─── 7. Complete notes archive invariants ────────────────────────────────
+print("\n[7] Complete notes archive invariants")
+RAW_PREFIX = "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/"
+manifest_paths, content_hashes, bad = {}, {}, 0
+for mf in notes_files:
+    for index, entry in enumerate(load_json(mf).get("subjects", [])):
+        url = entry["pdfUrl"]
+        if not url.startswith(RAW_PREFIX):
+            fail(f"{mf.relative_to(ROOT)} subject[{index}]: non-canonical pdfUrl")
+            bad += 1
+            continue
+        relative = url[len(RAW_PREFIX):]
+        expected = f"notes/{entry['revision']}/{entry['code']}/{entry['version']}/{entry['code']}.pdf"
+        if relative != expected:
+            fail(f"{mf.relative_to(ROOT)} subject[{index}]: path does not match metadata")
+            bad += 1
+        if entry["status"] != "published" or entry["pages"] < 1:
+            fail(f"{mf.relative_to(ROOT)} subject[{index}]: invalid publication status/pages")
+            bad += 1
+        if relative in manifest_paths:
+            fail(f"duplicate notes manifest path: {relative}")
+            bad += 1
+        manifest_paths[relative] = mf.relative_to(ROOT)
+
+notes_paths = {p.relative_to(ROOT).as_posix() for p in (ROOT / "notes").rglob("*.pdf")}
+for relative in sorted(notes_paths - set(manifest_paths)):
+    fail(f"orphaned notes PDF: {relative}")
+    bad += 1
+for relative in sorted(set(manifest_paths) - notes_paths):
+    fail(f"manifest points to missing notes PDF: {relative}")
+    bad += 1
+for relative in sorted(notes_paths):
+    path = ROOT / relative
+    data = path.read_bytes()
+    parts = path.relative_to(ROOT).parts
+    if (len(parts) != 5 or not parts[1].isdigit() or not parts[3].startswith("v")
+            or not parts[3][1:].isdigit() or parts[4] != f"{parts[2]}.pdf"):
+        fail(f"non-canonical notes filename: {relative}")
+        bad += 1
+    if len(data) < 1024:
+        fail(f"suspiciously small PDF ({len(data)} bytes): {relative}")
+        bad += 1
+    if not data.startswith(b"%PDF-") or b"startxref" not in data[-4096:] or b"%%EOF" not in data[-4096:]:
+        fail(f"PDF is missing required header/trailer markers: {relative}")
+        bad += 1
+    content_hashes.setdefault(hashlib.sha256(data).hexdigest(), []).append(relative)
+for digest, paths in content_hashes.items():
+    if len(paths) > 1:
+        fail(f"duplicate notes content {digest}: {', '.join(paths)}")
+        bad += 1
+if bad == 0:
+    pass_(f"all {len(notes_paths)} notes PDFs have canonical, unique, published records")
+
+
+# ─── 8. Python script syntax check ───────────────────────────────────────
+print("\n[8] Python script syntax check")
 py_files = sorted(ROOT.glob("*.py"))
 for pf in py_files:
     try:

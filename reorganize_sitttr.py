@@ -10,7 +10,9 @@ ROOT = Path(__file__).resolve().parent
 BASE_DIR = ROOT / "sitttr"
 MANIFEST_DIR = ROOT / "manifests"
 REVISIONS = ("revision-2015", "revision-2021", "revision-2026")
-CATEGORIES = ("model-question-papers", "syllabus")
+# These are the category names that exist in the archive.  The singular model
+# question paper directory is legacy but still active in the 2021 manifest.
+CATEGORIES = ("lab-manual", "model-question-paper", "model-question-papers", "syllabus")
 SEMESTERS = tuple(f"semester-{number}" for number in range(1, 7)) + ("semester-unspecified",)
 RAW_PREFIX = "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/"
 

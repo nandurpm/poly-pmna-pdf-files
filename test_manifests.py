@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Targeted tests for SITTTR manifest JSON files and Python scripts."""
+
+"""
+============================================================
+FILE: test_manifests.py
+PURPOSE: Validates SITTTR manifest schemas, paths, checksums, archive counts, and Python syntax.
+============================================================
+"""
 import json
 import sys
 import py_compile

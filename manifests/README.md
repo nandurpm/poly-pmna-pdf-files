@@ -1,5 +1,10 @@
 # PDF Manifests
 
+## Purpose
+
+This folder is the machine-readable index for both PDF collections. Consumers
+should use these records instead of inferring a document path from its title.
+
 Store one manifest per curriculum revision, for example `notes-2021.json` and `notes-2026.json`.
 
 Each subject record should include:
@@ -54,3 +59,16 @@ Mark `verificationStatus` as:
 - `missing` - Document not found on SITTTR
 
 See [`sitttr/README.md`](../sitttr/README.md) for complete SITTTR source documentation and verification rules.
+
+## Responsibilities
+
+Place revision-specific JSON manifests and the aggregate SITTTR index here.
+Binary documents and scraping code belong in their respective archive folders
+or at the repository root, not alongside the indexes.
+
+## Important notes
+
+Whenever a published PDF changes, allocate the intended version, recalculate its
+byte size, page count, and SHA-256 checksum, and update its canonical URL in the
+same change. Do not mark an entry `verified` unless its source and local file have
+both been checked.

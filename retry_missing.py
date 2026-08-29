@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Retry downloading missing SITTTR PDFs when the server is available.
+
+"""
+============================================================
+FILE: retry_missing.py
+PURPOSE: Retries official-source discovery and download for documents still marked missing.
+============================================================
 
 Usage:
     python3 retry_missing.py [revision]

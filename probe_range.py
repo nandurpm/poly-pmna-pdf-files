@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Probe a range of course codes. Fast version - no per-dept HTTP requests."""
+
+"""
+============================================================
+FILE: probe_range.py
+PURPOSE: Rapidly probes a supplied course-code range and records newly verified SITTTR documents.
+============================================================
+"""
 from __future__ import annotations
 import json, hashlib, re, sys, time
 from pathlib import Path

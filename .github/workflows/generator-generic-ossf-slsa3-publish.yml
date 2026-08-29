@@ -1,3 +1,9 @@
+# ============================================================
+# FILE: generator-generic-ossf-slsa3-publish.yml
+# PURPOSE: Runs the repository's generic SLSA provenance example for releases;
+#          it currently signs placeholder artifacts, not archive PDFs.
+# ============================================================
+
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Download PDFs for course codes in gaps between existing codes."""
+
+"""
+============================================================
+FILE: download_gaps.py
+PURPOSE: Downloads and indexes valid SITTTR PDFs found in gaps between known course codes.
+============================================================
+"""
 from __future__ import annotations
 
 import json

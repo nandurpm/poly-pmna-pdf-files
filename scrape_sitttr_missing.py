@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Scrape SITTTR to find all courses, compare with existing, and download missing PDFs."""
+
+"""
+============================================================
+FILE: scrape_sitttr_missing.py
+PURPOSE: Compares scraped SITTTR courses with the archive and downloads verified missing PDFs.
+============================================================
+"""
 from __future__ import annotations
 
 import json

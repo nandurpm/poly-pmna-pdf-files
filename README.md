@@ -2,6 +2,16 @@
 
 This public repository is dedicated to PDF study-note distribution for the [POLY PMNA website](https://polypmna.dpdns.org/).
 
+It has two distinct archives: generated POLY PMNA lesson PDFs under `notes/` and
+officially sourced SITTTR documents under `sitttr/`. Revision manifests provide
+the machine-readable metadata used to verify and consume both collections.
+
+## Technology stack
+
+- Static PDF and JSON assets served from GitHub's raw-content endpoint
+- Python 3 maintenance, discovery, download, and manifest-validation scripts
+- GitHub Actions for the repository's current SLSA provenance experiment
+
 ## Archive layout
 
 PDF files are organized by curriculum revision, stable subject code, and version:
@@ -69,3 +79,60 @@ For every missing document, follow this order:
 The main `nandurpm/diploma-notes` repository renders changed lesson pages with Chromium, validates the resulting PDFs, commits them to the canonical paths in this repository, and updates the manifests. The cross-repository write requires the `PDF_ARCHIVE_REPO_TOKEN` Actions secret in `diploma-notes`.
 
 The current archive contains Revision 2021 and Revision 2026 lesson PDFs generated from the corresponding HTML lesson pages.
+
+## Project structure
+
+| Path | Responsibility |
+| --- | --- |
+| `notes/` | Versioned POLY PMNA lesson PDFs grouped by curriculum revision and subject code. |
+| `sitttr/` | Mirrored official SITTTR syllabus, handbook, rule, and model-question-paper documents. |
+| `manifests/` | JSON inventories containing canonical URLs, checksums, sizes, page counts, and publication state. |
+| Root Python scripts | One-off and repeatable archive discovery, scraping, gap analysis, reorganization, retry, and validation tools. |
+| `.github/workflows/` | Release-triggered supply-chain provenance experiment. |
+
+## Installation
+
+There is no application dependency installation step. A complete checkout needs
+Git LFS only if the repository later adopts LFS; the current archive consists of
+ordinary Git objects. Python 3.10 or newer is recommended for running the
+maintenance scripts. Individual network-facing scripts may require `requests` or
+`beautifulsoup4`; read their module documentation before use.
+
+## Common commands
+
+Run the local manifest consistency checks:
+
+```bash
+python3 test_manifests.py
+```
+
+List SITTTR records whose files are not present locally:
+
+```bash
+python3 list_missing_sitttr.py
+```
+
+The scraping and download utilities contact external sites and can create many
+files. Review each script's options and use a disposable branch before running it.
+
+## Testing
+
+`test_manifests.py` validates manifest structure, checksums, byte counts, page
+counts, revision fields, canonical URLs, and the expected archive paths. It must
+be run from a complete checkout because sparse clones that omit PDFs cannot
+perform file-level verification.
+
+## Documentation map
+
+- [`notes/README.md`](notes/README.md) — generated lesson archive layout and publication rules
+- [`sitttr/README.md`](sitttr/README.md) — official-source archive, verification, and attribution rules
+- [`manifests/README.md`](manifests/README.md) — manifest schemas and status conventions
+- [`.github/README.md`](.github/README.md) — repository automation configuration
+
+## Contributing
+
+Keep PDFs at their canonical versioned paths, update the corresponding manifest
+in the same change, and run the manifest validator before proposing a merge.
+Never commit credentials, local staging directories, or unverified third-party
+documents. Archive additions should retain their authoritative source URL and
+checksum so future maintainers can reproduce the verification.

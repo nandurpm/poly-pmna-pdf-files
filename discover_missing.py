@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Discover missing SITTTR PDFs by probing code ranges.
+
+"""
+============================================================
+FILE: discover_missing.py
+PURPOSE: Discovers missing SITTTR PDFs by probing direct document routes across course-code ranges.
+============================================================
 
 The department listing pages (diploma-*-courses&prog=XX) return HTTP 500,
 so we probe the direct PDF endpoints instead:

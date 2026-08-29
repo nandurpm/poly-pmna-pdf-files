@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Scrape SITTTR website to find all available PDF documents - v2."""
+
+"""
+============================================================
+FILE: scrape_sitttr_v2.py
+PURPOSE: Implements the revised SITTTR scraper and manifest update workflow.
+============================================================
+"""
 from __future__ import annotations
 
 import json

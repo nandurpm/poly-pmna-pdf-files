@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Scrape SITTTR department pages to discover course codes, then download missing PDFs."""
+
+"""
+============================================================
+FILE: scrape_and_download.py
+PURPOSE: Scrapes department pages for course codes and downloads newly discovered SITTTR PDFs.
+============================================================
+"""
 from __future__ import annotations
 
 import json

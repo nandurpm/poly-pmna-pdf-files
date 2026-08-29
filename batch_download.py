@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Batch download missing SITTTR PDFs. Usage: python3 batch_download.py <revision> <doc_type> <start> <end>"""
+
+"""
+============================================================
+FILE: batch_download.py
+PURPOSE: Downloads a requested batch of missing SITTTR PDFs, validates them, and updates the canonical index.
+============================================================
+"""
 from __future__ import annotations
 
 import json

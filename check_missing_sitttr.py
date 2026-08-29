@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Check SITTTR website for newly available PDFs and download them."""
+
+"""
+============================================================
+FILE: check_missing_sitttr.py
+PURPOSE: Checks official SITTTR sources for newly available PDFs and imports validated documents.
+============================================================
+"""
 from __future__ import annotations
 
 import json

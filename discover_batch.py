@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Batch-discover missing SITTTR PDFs.
+
+"""
+============================================================
+FILE: discover_batch.py
+PURPOSE: Probes a bounded course-code batch for SITTTR documents when listing pages are unavailable.
+============================================================
 
 Since department listing pages return HTTP 500, we probe the direct PDF
 endpoints for new course codes and create entries for all departments.

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Normalize SITTTR PDF folders and keep repository manifests in sync."""
+
+"""
+============================================================
+FILE: reorganize_sitttr.py
+PURPOSE: Normalizes SITTTR archive paths and keeps raw URLs and manifests synchronized.
+============================================================
+"""
 from __future__ import annotations
 
 import json

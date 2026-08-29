@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""List all missing SITTTR documents from the index."""
+
+"""
+============================================================
+FILE: list_missing_sitttr.py
+PURPOSE: Reports manifest entries whose required SITTTR document remains unavailable or missing.
+============================================================
+"""
 from __future__ import annotations
 
 import json

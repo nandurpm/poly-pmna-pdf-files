@@ -1,0 +1,58 @@
+name: Notify POLY PMNA consumers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "notes/**"
+      - "manifests/**"
+      - ".github/workflows/notify-pdf-consumers.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify-pdf-consumers-main
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    name: Notify diploma-notes and polypmna
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify consumer token
+        env:
+          PDF_CONSUMERS_TOKEN: ${{ secrets.PDF_CONSUMERS_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [[ -z "$PDF_CONSUMERS_TOKEN" ]]; then
+            echo "Missing PDF_CONSUMERS_TOKEN. Create a fine-grained token with Actions/Contents write access to diploma-notes and polypmna, then add it as a secret in this repository."
+            exit 1
+          fi
+
+      - name: Dispatch update event to consumers
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PDF_CONSUMERS_TOKEN }}
+          script: |
+            const changed = [...new Set((context.payload.commits || []).flatMap((commit) => [
+              ...(commit.added || []),
+              ...(commit.modified || []),
+              ...(commit.removed || []),
+            ]))].filter((path) => path.startsWith('notes/') || path.startsWith('manifests/'));
+            const payload = {
+              source_repository: context.repo.owner + '/' + context.repo.repo,
+              source_sha: context.sha,
+              changed_files: changed,
+              source_url: `https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${context.sha}`,
+            };
+            for (const repo of ['diploma-notes', 'polypmna']) {
+              await github.rest.repos.createDispatchEvent({
+                owner: context.repo.owner,
+                repo,
+                event_type: 'pdf-archive-updated',
+                client_payload: payload,
+              });
+              core.info(`Dispatched pdf-archive-updated to ${repo}`);
+            }

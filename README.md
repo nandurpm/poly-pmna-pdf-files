@@ -69,3 +69,12 @@ For every missing document, follow this order:
 The main `nandurpm/diploma-notes` repository renders changed lesson pages with Chromium, validates the resulting PDFs, commits them to the canonical paths in this repository, and updates the manifests. The cross-repository write requires the `PDF_ARCHIVE_REPO_TOKEN` Actions secret in `diploma-notes`.
 
 The current archive contains Revision 2021 and Revision 2026 lesson PDFs generated from the corresponding HTML lesson pages.
+
+
+## Consumer synchronization
+
+`poly-pmna-pdf-files` is the canonical binary and manifest repository for the POLY PMNA ecosystem. The `notify-pdf-consumers.yml` workflow watches `notes/` and `manifests/` and dispatches a `pdf-archive-updated` event to `diploma-notes` and `polypmna` after each relevant change.
+
+Add a fine-grained GitHub token as the `PDF_CONSUMERS_TOKEN` Actions secret in this repository. The token must be allowed to dispatch workflows or repository events in both consumer repositories. The token is used only by the workflow and must never be committed.
+
+The consumer workflows refresh `docs/pdf-archive-sync.json`. They do not duplicate PDF binaries: both sites continue to use the canonical raw URLs, so a published file or manifest update is reflected from the archive repository without creating competing copies.

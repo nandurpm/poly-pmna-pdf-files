@@ -68,6 +68,18 @@ For every missing document, follow this order:
 
 The main `nandurpm/diploma-notes` repository renders changed lesson pages with Chromium, validates the resulting PDFs, commits them to the canonical paths in this repository, and updates the manifests. The cross-repository write requires the `PDF_ARCHIVE_REPO_TOKEN` Actions secret in `diploma-notes`.
 
+Archive changes flow in the other direction through [the consumer notification workflow](.github/workflows/notify-consumers.yml). A push to `notes/`, `manifests/`, or `sitttr/` on `main` sends a `pdf-archive-updated` repository-dispatch event to both `nandurpm/diploma-notes` and `nandurpm/polypmna`. The payload identifies the exact archive commit and manifest base URL, so consumers can invalidate caches, refresh derived indexes, or run their own integrity checks without copying these generated PDFs into another repository.
+
+Configure an Actions secret named `CROSS_REPO_SYNC_TOKEN` in this repository. It must be a fine-grained token with access only to the two consumer repositories and permission to dispatch repository events (fine-grained **Contents: write**). Do not store the token in this repository. Each consumer must handle the following event in its own workflow:
+
+```yaml
+on:
+  repository_dispatch:
+    types: [pdf-archive-updated]
+```
+
+The contract is deliberately one-way for archive updates: `diploma-notes` publishes validated PDFs here, and this repository notifies both consumers after the canonical files change. `polypmna` and `diploma-notes` should continue resolving published files from the supplied manifests rather than maintaining divergent PDF copies. A notification failure makes the workflow fail visibly instead of silently claiming that consumers were updated.
+
 The current archive contains Revision 2021 and Revision 2026 lesson PDFs generated from the corresponding HTML lesson pages.
 
 

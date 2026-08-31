@@ -285,6 +285,36 @@ for pf in py_files:
         fail(f"syntax error in {pf.name}: {e}")
 
 
+# ─── 9. Consumer repository notification workflow ──────────────────────
+print("\n[9] Consumer repository notification workflow")
+workflow_path = ROOT / ".github" / "workflows" / "notify-consumers.yml"
+workflow = workflow_path.read_text(encoding="utf-8") if workflow_path.exists() else ""
+if workflow:
+    pass_("consumer notification workflow exists")
+else:
+    fail("consumer notification workflow exists")
+
+if all(path in workflow for path in ('"notes/**"', '"manifests/**"', '"sitttr/**"')):
+    pass_("archive paths trigger consumer notifications")
+else:
+    fail("archive paths trigger consumer notifications")
+
+if all(repository in workflow for repository in ("nandurpm/diploma-notes", "nandurpm/polypmna")):
+    pass_("both consumer repositories are notified")
+else:
+    fail("both consumer repositories are notified")
+
+if 'event_type: "pdf-archive-updated"' in workflow:
+    pass_("stable dispatch event contract is configured")
+else:
+    fail("stable dispatch event contract is configured")
+
+if "github_pat_" not in workflow and "ghp_" not in workflow:
+    pass_("cross-repository token is never embedded")
+else:
+    fail("cross-repository token is never embedded")
+
+
 # ─── Summary ─────────────────────────────────────────────────────────────
 print(f"\n{'='*60}")
 print(f"RESULTS: {PASSED} passed, {FAILED} failed, {PASSED + FAILED} total")

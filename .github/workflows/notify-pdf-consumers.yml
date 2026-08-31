@@ -41,7 +41,7 @@ jobs:
               ...(commit.added || []),
               ...(commit.modified || []),
               ...(commit.removed || []),
-            ])).filter((path) => path.startsWith('notes/') || path.startsWith('sitttr/') || path.startsWith('manifests/'));
+            ))].filter((path) => path.startsWith('notes/') || path.startsWith('sitttr/') || path.startsWith('manifests/'));
             const payload = {
               source_repository: context.repo.owner + '/' + context.repo.repo,
               source_sha: context.sha,

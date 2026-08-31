@@ -1,2 +1,2 @@
 # Keep PDFs binary and prevent text normalization.
-*.pdf -text
+*.pdf binary linguist-generated=true

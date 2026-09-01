@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T01:48:46Z",
-  "sourceCommit": "019fa72bae9fc41678bc0d5f22d4ea5065597eab",
+  "generatedAt": "2026-09-01T02:00:02Z",
+  "sourceCommit": "06219c9f3e5f76586ca0f0d7922815f79695f44f",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -642,6 +642,18 @@
       "sha256": "7cfc6f3da85c03eba7de111281ffc705589ac03507af95b3ee501fe06ea10967",
       "pages": 12,
       "source": "lessons/lessons-2071.html"
+    },
+    {
+      "code": "2072",
+      "title": "2072 — Engineering Chemistry",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2072/v1/2072.pdf",
+      "bytes": 814394,
+      "sha256": "d0a79410d34f609ed954ecd5b986f547fa0f8972768dcdc310ce1e2d01d7b61d",
+      "pages": 9,
+      "source": "lessons/lessons-2072.html"
     },
     {
       "code": "2131",

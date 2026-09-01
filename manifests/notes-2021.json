@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T02:11:31Z",
-  "sourceCommit": "cff5666cd1cdec0fd59e9062c36c89a8506e367d",
+  "generatedAt": "2026-09-01T02:24:49Z",
+  "sourceCommit": "d13d09761c6f024e5a061bb0d70fe6bcf1ca78f6",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -666,6 +666,18 @@
       "sha256": "b9c18027b3ab011279e1c0c51144b4d472117cecad74a6f6186df02032552454",
       "pages": 12,
       "source": "lessons/lessons-2078.html"
+    },
+    {
+      "code": "2079",
+      "title": "2079 — Engineering Chemistry Lab",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2079/v1/2079.pdf",
+      "bytes": 267493,
+      "sha256": "79cc3b215531e9e7d9008ecf68d7c9ed057711291d97350502a386b7d8669080",
+      "pages": 12,
+      "source": "lessons/lessons-2079.html"
     },
     {
       "code": "2131",

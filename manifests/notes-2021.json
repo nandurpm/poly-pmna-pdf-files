@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T01:15:50Z",
-  "sourceCommit": "afa77fe86dc2dcf3663a1ea6005d9bb44be2890d",
+  "generatedAt": "2026-09-01T01:25:06Z",
+  "sourceCommit": "9fe612fa90ae27697f9e7393a9276f8f36fc3187",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -606,6 +606,18 @@
       "sha256": "bba654a218a00923c6aca3f69c424ffb7a1794d56333dc67ddbf0d0c11f9746a",
       "pages": 10,
       "source": "lessons/lessons-2059.html"
+    },
+    {
+      "code": "2061",
+      "title": "2061 — Textile Fibres",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2061/v1/2061.pdf",
+      "bytes": 219436,
+      "sha256": "d409329445a0ea94ac33ddb0df0dbde0d5334c84b79ebbc6f90a595f71502d32",
+      "pages": 12,
+      "source": "lessons/lessons-2061.html"
     },
     {
       "code": "2131",

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T01:07:03Z",
-  "sourceCommit": "ac03f8e28a0b34b055f5ba7ba7af3ec10bce6e43",
+  "generatedAt": "2026-09-01T01:15:50Z",
+  "sourceCommit": "afa77fe86dc2dcf3663a1ea6005d9bb44be2890d",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -594,6 +594,18 @@
       "sha256": "7e0661443bc82a576b6ae1c77266dbbcb3461cc6f1623c107de9435810698422",
       "pages": 8,
       "source": "lessons/lessons-2051.html"
+    },
+    {
+      "code": "2059",
+      "title": "2059 — Automobile Service Lab - I",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2059/v1/2059.pdf",
+      "bytes": 862284,
+      "sha256": "bba654a218a00923c6aca3f69c424ffb7a1794d56333dc67ddbf0d0c11f9746a",
+      "pages": 10,
+      "source": "lessons/lessons-2059.html"
     },
     {
       "code": "2131",

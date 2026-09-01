@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T00:40:50Z",
-  "sourceCommit": "d5ac7f6edc642bd2195ca7a704f8455c4381cb41",
+  "generatedAt": "2026-09-01T00:54:15Z",
+  "sourceCommit": "1706da23dc69df334a16014b13313538a4a2e45b",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -450,6 +450,18 @@
       "sha256": "b20dbeba47e01f77d3abebc9acb1781963e8766441623ea3c42f7f1076426591",
       "pages": 71,
       "source": "lessons/lessons-2011.html"
+    },
+    {
+      "code": "2019",
+      "title": "2019 — Basic Surveying Lab",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2019/v1/2019.pdf",
+      "bytes": 872230,
+      "sha256": "dae8c2c9d7670f860d23383ba6e029fb4723855a58a05e3822e8a062875ce6c5",
+      "pages": 10,
+      "source": "lessons/lessons-2019.html"
     },
     {
       "code": "2021",

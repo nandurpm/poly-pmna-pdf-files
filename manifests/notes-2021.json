@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T03:55:02Z",
-  "sourceCommit": "f6da621a35e05a0ba1700accaffa138ecbae6b21",
+  "generatedAt": "2026-09-01T04:04:59Z",
+  "sourceCommit": "af73954f71fba597eaf3abc4ff0c0bad41ab9b8c",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -810,6 +810,18 @@
       "sha256": "e93fc979defd7cc77c6873218dd7bf5ed376f0937280bc0387bcfd8709cbffc8",
       "pages": 11,
       "source": "lessons/lessons-2139.html"
+    },
+    {
+      "code": "2141",
+      "title": "2141 — Business Statistics",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2141/v1/2141.pdf",
+      "bytes": 203307,
+      "sha256": "ae56c3f1f66b0510c58c179ea06f3711703973eff5a84c21eb51d01db1c4bcaf",
+      "pages": 11,
+      "source": "lessons/lessons-2141.html"
     },
     {
       "code": "2181",

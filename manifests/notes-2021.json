@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T03:08:23Z",
-  "sourceCommit": "60ed977c7cfc765e446b8862e89f48544b1dc229",
+  "generatedAt": "2026-09-01T03:16:32Z",
+  "sourceCommit": "01dd5d47c167f0900df2d5b7374f90bd2abf3004",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -726,6 +726,18 @@
       "sha256": "87434106851907fa19f4a22ce5725ee97f672d874e9cb6edb16af2f8e8ee2a91",
       "pages": 12,
       "source": "lessons/lessons-2099.html"
+    },
+    {
+      "code": "2101",
+      "title": "2101 — Basics of Printing Processes",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2101/v1/2101.pdf",
+      "bytes": 170092,
+      "sha256": "7ac2c223277e32db9835d85302a8ad2a640214f9e989f27d2ed5e758c1bffc34",
+      "pages": 11,
+      "source": "lessons/lessons-2101.html"
     },
     {
       "code": "2131",

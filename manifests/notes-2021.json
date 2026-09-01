@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T02:55:56Z",
-  "sourceCommit": "5c2428295a338a26518b2983f5d71907ed5398fa",
+  "generatedAt": "2026-09-01T03:08:23Z",
+  "sourceCommit": "60ed977c7cfc765e446b8862e89f48544b1dc229",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -714,6 +714,18 @@
       "sha256": "4c8cac3eca0878a7c27475ad4447d4db127871a8eadb374985f0902402a40349",
       "pages": 10,
       "source": "lessons/lessons-2091.html"
+    },
+    {
+      "code": "2099",
+      "title": "CAD Lab I",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2099/v1/2099.pdf",
+      "bytes": 239644,
+      "sha256": "87434106851907fa19f4a22ce5725ee97f672d874e9cb6edb16af2f8e8ee2a91",
+      "pages": 12,
+      "source": "lessons/lessons-2099.html"
     },
     {
       "code": "2131",

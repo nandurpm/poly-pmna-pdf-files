@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T01:25:06Z",
-  "sourceCommit": "9fe612fa90ae27697f9e7393a9276f8f36fc3187",
+  "generatedAt": "2026-09-01T01:33:38Z",
+  "sourceCommit": "b90416bdc6405313c4ff76394c94193414ffaaf1",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -618,6 +618,18 @@
       "sha256": "d409329445a0ea94ac33ddb0df0dbde0d5334c84b79ebbc6f90a595f71502d32",
       "pages": 12,
       "source": "lessons/lessons-2061.html"
+    },
+    {
+      "code": "2069",
+      "title": "2069 — Basic Textile Mechanics Lab",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2069/v1/2069.pdf",
+      "bytes": 212976,
+      "sha256": "e9241f5f27079fbf5b7fe488348252895e367e8df834818f6b921f92e47c0bd6",
+      "pages": 12,
+      "source": "lessons/lessons-2069.html"
     },
     {
       "code": "2131",

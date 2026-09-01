@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T00:30:52Z",
-  "sourceCommit": "62e3e31b74f3056bb4a26e07f48b68d7c195b72c",
+  "generatedAt": "2026-09-01T00:40:50Z",
+  "sourceCommit": "d5ac7f6edc642bd2195ca7a704f8455c4381cb41",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -414,6 +414,18 @@
       "sha256": "1819f8eacce5720df7a8b1f934974f5e028458efa5931732e6f1a0264bd11ccb",
       "pages": 5,
       "source": "lessons/lessons-2008_REV2021.html"
+    },
+    {
+      "code": "2009",
+      "title": "2009 — Engineering Workshop Practice",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2009/v1/2009.pdf",
+      "bytes": 214156,
+      "sha256": "93e2c6309fc2764ca9b6945a0febc22fcfedd6bb6ea333ba1e57ef2903ec20f5",
+      "pages": 10,
+      "source": "lessons/lessons-2009.html"
     },
     {
       "code": "2009_REV2021",

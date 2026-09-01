@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T02:24:49Z",
-  "sourceCommit": "d13d09761c6f024e5a061bb0d70fe6bcf1ca78f6",
+  "generatedAt": "2026-09-01T02:31:29Z",
+  "sourceCommit": "5ed29c78b7e8333c29526cf87c9eecbed9e9690f",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -678,6 +678,18 @@
       "sha256": "79cc3b215531e9e7d9008ecf68d7c9ed057711291d97350502a386b7d8669080",
       "pages": 12,
       "source": "lessons/lessons-2079.html"
+    },
+    {
+      "code": "2081",
+      "title": "2081 — Electronic Instrumentation",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2081/v1/2081.pdf",
+      "bytes": 233801,
+      "sha256": "a347f230948b28769c2b9c4d6b1f61bc426b8b14d244c68069e19922dc683a68",
+      "pages": 11,
+      "source": "lessons/lessons-2081.html"
     },
     {
       "code": "2131",

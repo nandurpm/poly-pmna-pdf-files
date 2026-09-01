@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T01:33:38Z",
-  "sourceCommit": "b90416bdc6405313c4ff76394c94193414ffaaf1",
+  "generatedAt": "2026-09-01T01:48:46Z",
+  "sourceCommit": "019fa72bae9fc41678bc0d5f22d4ea5065597eab",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -630,6 +630,18 @@
       "sha256": "e9241f5f27079fbf5b7fe488348252895e367e8df834818f6b921f92e47c0bd6",
       "pages": 12,
       "source": "lessons/lessons-2069.html"
+    },
+    {
+      "code": "2071",
+      "title": "2071 — Chemical Process Principles",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2071/v1/2071.pdf",
+      "bytes": 250820,
+      "sha256": "7cfc6f3da85c03eba7de111281ffc705589ac03507af95b3ee501fe06ea10967",
+      "pages": 12,
+      "source": "lessons/lessons-2071.html"
     },
     {
       "code": "2131",

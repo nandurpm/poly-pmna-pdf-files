@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T04:04:59Z",
-  "sourceCommit": "af73954f71fba597eaf3abc4ff0c0bad41ab9b8c",
+  "generatedAt": "2026-09-01T04:13:05Z",
+  "sourceCommit": "d35ebcd8903de550687771119e9890d375a08b5a",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -822,6 +822,18 @@
       "sha256": "ae56c3f1f66b0510c58c179ea06f3711703973eff5a84c21eb51d01db1c4bcaf",
       "pages": 11,
       "source": "lessons/lessons-2141.html"
+    },
+    {
+      "code": "2142",
+      "title": "2142 — Financial Accounting II",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2142/v1/2142.pdf",
+      "bytes": 236412,
+      "sha256": "2886040db88822be8437c7e9e0af158d7710ba1b78fcacb2283bb16c0f969554",
+      "pages": 11,
+      "source": "lessons/lessons-2142.html"
     },
     {
       "code": "2181",

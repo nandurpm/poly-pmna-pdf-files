@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T02:43:58Z",
-  "sourceCommit": "248a304d9f7820e010b22b827e57b7ad206e2c2c",
+  "generatedAt": "2026-09-01T02:55:56Z",
+  "sourceCommit": "5c2428295a338a26518b2983f5d71907ed5398fa",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -702,6 +702,18 @@
       "sha256": "9a9354ea7470de0de1c0c4c0d5a59b03b1d1e0201c36896095f32825711c7bc5",
       "pages": 11,
       "source": "lessons/lessons-2089.html"
+    },
+    {
+      "code": "2091",
+      "title": "Fundamentals Of Polymer Science",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2091/v1/2091.pdf",
+      "bytes": 944503,
+      "sha256": "4c8cac3eca0878a7c27475ad4447d4db127871a8eadb374985f0902402a40349",
+      "pages": 10,
+      "source": "lessons/lessons-2091.html"
     },
     {
       "code": "2131",

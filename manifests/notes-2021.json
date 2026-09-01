@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T00:54:15Z",
-  "sourceCommit": "1706da23dc69df334a16014b13313538a4a2e45b",
+  "generatedAt": "2026-09-01T01:07:03Z",
+  "sourceCommit": "ac03f8e28a0b34b055f5ba7ba7af3ec10bce6e43",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -582,6 +582,18 @@
       "sha256": "d447b391c4b1f5121529e44675ed13cec9e939e28049043493edfd13b93975c6",
       "pages": 21,
       "source": "lessons/lessons-2049.html"
+    },
+    {
+      "code": "2051",
+      "title": "2051 — Basic Automobile Engineering",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2051/v1/2051.pdf",
+      "bytes": 229757,
+      "sha256": "7e0661443bc82a576b6ae1c77266dbbcb3461cc6f1623c107de9435810698422",
+      "pages": 8,
+      "source": "lessons/lessons-2051.html"
     },
     {
       "code": "2131",

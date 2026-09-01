@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-08-29T05:31:16Z",
-  "sourceCommit": "ea9323048143f6c58991eda1d25024476ce2c311",
+  "generatedAt": "2026-09-01T00:30:52Z",
+  "sourceCommit": "62e3e31b74f3056bb4a26e07f48b68d7c195b72c",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -390,6 +390,18 @@
       "sha256": "719ce3ff6eb1b21371ee796b26da0e7088d32e626db6c9915869779ca4a1dd8e",
       "pages": 38,
       "source": "lessons/lessons-2006.html"
+    },
+    {
+      "code": "2008",
+      "title": "2008 — Communication Skills in English Lab",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2008/v1/2008.pdf",
+      "bytes": 247247,
+      "sha256": "8a014dabfff2c836b1afe7394c5f34ecd218a9d8c7d716363f5eccab1c96d041",
+      "pages": 11,
+      "source": "lessons/lessons-2008.html"
     },
     {
       "code": "2008_REV2021",

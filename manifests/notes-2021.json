@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "storage": "git-tree",
   "revision": "2021",
-  "generatedAt": "2026-09-01T03:16:32Z",
-  "sourceCommit": "01dd5d47c167f0900df2d5b7374f90bd2abf3004",
+  "generatedAt": "2026-09-01T03:30:01Z",
+  "sourceCommit": "6f21b6dee0d8ba7b9a521b57699970fb4d3636fe",
   "pdfBaseUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main",
   "pdfVersion": "v1",
   "subjects": [
@@ -738,6 +738,18 @@
       "sha256": "7ac2c223277e32db9835d85302a8ad2a640214f9e989f27d2ed5e758c1bffc34",
       "pages": 11,
       "source": "lessons/lessons-2101.html"
+    },
+    {
+      "code": "2109",
+      "title": "2109 — Office Automation Workshop",
+      "revision": "2021",
+      "version": "v1",
+      "status": "published",
+      "pdfUrl": "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/notes/2021/2109/v1/2109.pdf",
+      "bytes": 251979,
+      "sha256": "d28e03507ff51da7052985f26d353c5fbd52d2215056b2e825a6e681c584ecd5",
+      "pages": 13,
+      "source": "lessons/lessons-2109.html"
     },
     {
       "code": "2131",

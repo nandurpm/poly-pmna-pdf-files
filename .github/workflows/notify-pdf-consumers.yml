@@ -1,59 +1,108 @@
-name: Notify POLY PMNA consumers
+name: Index PDFs and notify consumers
 
 on:
   push:
     branches: [main]
     paths:
-      - "notes/**"
-      - "sitttr/**"
-      - "manifests/**"
-      - ".github/workflows/notify-pdf-consumers.yml"
+      - '**.[pP][dD][fF]'
+      - 'manifests/**'
+      - 'tools/index_archive.py'
+      - 'tools/import_legacy_pdfs.py'
+      - '.github/workflows/notify-pdf-consumers.yml'
   workflow_dispatch:
+    inputs:
+      import_legacy:
+        description: Preserve all current diploma-notes PDFs in the archive
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: notify-pdf-consumers-main
+  group: pdf-archive-publish-main
   cancel-in-progress: false
 
 jobs:
-  notify:
-    name: Notify diploma-notes and polypmna
+  publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
-      - name: Verify consumer token
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF validation tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Test archive indexing and preservation
+        run: python -m unittest discover -s tests -p 'test_archive_index.py' -v
+      - name: Configure archive commit author
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Decide whether legacy import is needed
+        id: legacy
         env:
-          PDF_CONSUMERS_TOKEN: ${{ secrets.PDF_CONSUMERS_TOKEN }}
+          FORCE_IMPORT: ${{ inputs.import_legacy || false }}
+        run: |
+          if [ "$FORCE_IMPORT" = true ] || [ ! -f manifests/legacy-diploma-notes.json ]; then
+            echo 'needed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check out original PDFs for preservation
+        if: steps.legacy.outputs.needed == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: nandurpm/diploma-notes
+          ref: main
+          path: legacy-source
+          sparse-checkout: |
+            **/*.pdf
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+      - name: Preserve and verify legacy PDFs
+        if: steps.legacy.outputs.needed == 'true'
+        run: |
+          python tools/import_legacy_pdfs.py "$GITHUB_WORKSPACE/legacy-source" "$GITHUB_WORKSPACE" --push
+          rm -rf legacy-source
+      - name: Index uploads and validate lesson manifests
+        run: python tools/index_archive.py
+      - name: Commit derived manifests and preserved PDFs
+        id: archive
         run: |
           set -euo pipefail
-          if [[ -z "$PDF_CONSUMERS_TOKEN" ]]; then
-            echo "Missing PDF_CONSUMERS_TOKEN. Create a fine-grained token with Actions/Contents write access to diploma-notes and polypmna, then add it as a secret in this repository."
-            exit 1
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add manifests
+          if [ -d legacy ]; then git add legacy; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Index PDF uploads and preserve legacy archive'
+            git push origin HEAD:main
           fi
-
-      - name: Dispatch update event to consumers
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      # GITHUB_TOKEN commits do not trigger another push workflow. Dispatch here,
+      # after indexing, using the actual resulting archive commit.
+      - name: Notify both consumers after publication
         uses: actions/github-script@v7
+        env:
+          ARCHIVE_SHA: ${{ steps.archive.outputs.sha }}
         with:
-          github-token: ${{ secrets.PDF_CONSUMERS_TOKEN }}
+          github-token: ${{ secrets.PDF_CONSUMERS_TOKEN || secrets.CROSS_REPO_SYNC_TOKEN }}
           script: |
-            const changed = (context.payload.commits || []).flatMap((commit) => [
-              ...(commit.added || []),
-              ...(commit.modified || []),
-              ...(commit.removed || []),
-            ]).filter((path) => path.startsWith('notes/') || path.startsWith('sitttr/') || path.startsWith('manifests/'));
-            const payload = {
-              source_repository: context.repo.owner + '/' + context.repo.repo,
-              source_sha: context.sha,
-              changed_files: changed,
-              source_url: `https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${context.sha}`,
-            };
+            const failures = [];
             for (const repo of ['diploma-notes', 'polypmna']) {
-              await github.rest.repos.createDispatchEvent({
-                owner: context.repo.owner,
-                repo,
-                event_type: 'pdf-archive-updated',
-                client_payload: payload,
-              });
-              core.info(`Dispatched pdf-archive-updated to ${repo}`);
+              try {
+                await github.rest.repos.createDispatchEvent({
+                  owner: 'nandurpm', repo, event_type: 'pdf-archive-updated',
+                  client_payload: {
+                    source_repository: 'nandurpm/poly-pmna-pdf-files',
+                    source_sha: process.env.ARCHIVE_SHA,
+                    source_ref: 'main'
+                  }
+                });
+                core.info(`Notified ${repo}`);
+              } catch (error) { failures.push(`${repo}: ${error.message}`); }
             }
+            if (failures.length) core.setFailed(failures.join('\n'));

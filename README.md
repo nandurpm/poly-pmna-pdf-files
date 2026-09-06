@@ -64,29 +64,9 @@ For every missing document, follow this order:
 
 **Never skip the SITTTR check** for diploma syllabus and model question papers.
 
-## Automation
+## Automation and uploads
 
-The main `nandurpm/diploma-notes` repository renders changed lesson pages with Chromium, validates the resulting PDFs, commits them to the canonical paths in this repository, and updates the manifests. The cross-repository write requires the `PDF_ARCHIVE_REPO_TOKEN` Actions secret in `diploma-notes`.
+See [Upload once, use on both websites](docs/upload-and-sync.md) for the upload layout, automatic indexing, consumer synchronization, legacy preservation and verification steps.
 
-Archive changes flow in the other direction through [the consumer notification workflow](.github/workflows/notify-consumers.yml). A push to `notes/`, `manifests/`, or `sitttr/` on `main` sends a `pdf-archive-updated` repository-dispatch event to both `nandurpm/diploma-notes` and `nandurpm/polypmna`. The payload identifies the exact archive commit and manifest base URL, so consumers can invalidate caches, refresh derived indexes, or run their own integrity checks without copying these generated PDFs into another repository.
+A single [Index PDFs and notify consumers](.github/workflows/notify-pdf-consumers.yml) workflow publishes the catalog and sends both consumers the resulting archive commit. Both sites expose the shared catalog through their All PDFs page and resolve published lesson URLs from the versioned manifests.
 
-Configure an Actions secret named `CROSS_REPO_SYNC_TOKEN` in this repository. It must be a fine-grained token with access only to the two consumer repositories and permission to dispatch repository events (fine-grained **Contents: write**). Do not store the token in this repository. Each consumer must handle the following event in its own workflow:
-
-```yaml
-on:
-  repository_dispatch:
-    types: [pdf-archive-updated]
-```
-
-The contract is deliberately one-way for archive updates: `diploma-notes` publishes validated PDFs here, and this repository notifies both consumers after the canonical files change. `polypmna` and `diploma-notes` should continue resolving published files from the supplied manifests rather than maintaining divergent PDF copies. A notification failure makes the workflow fail visibly instead of silently claiming that consumers were updated.
-
-The current archive contains Revision 2021 and Revision 2026 lesson PDFs generated from the corresponding HTML lesson pages.
-
-
-## Consumer synchronization
-
-`poly-pmna-pdf-files` is the canonical binary and manifest repository for the POLY PMNA ecosystem. The `notify-pdf-consumers.yml` workflow watches `notes/` and `manifests/` and dispatches a `pdf-archive-updated` event to `diploma-notes` and `polypmna` after each relevant change.
-
-Add a fine-grained GitHub token as the `PDF_CONSUMERS_TOKEN` Actions secret in this repository. The token must be allowed to dispatch workflows or repository events in both consumer repositories. The token is used only by the workflow and must never be committed.
-
-The consumer workflows refresh `docs/pdf-archive-sync.json`. They do not duplicate PDF binaries: both sites continue to use the canonical raw URLs, so a published file or manifest update is reflected from the archive repository without creating competing copies.

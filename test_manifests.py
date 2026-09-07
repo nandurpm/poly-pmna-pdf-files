@@ -145,7 +145,7 @@ for mf in all_manifest_files:
     local_paths = []
     for e in entries:
         if "path" in e:
-            local_paths.append(ROOT / e["path"])
+            local_paths.append(ROOT / e.get("canonicalPath", e["path"]))
         elif "pdfUrl" in e:
             prefix = "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/"
             if e["pdfUrl"].startswith(prefix):
@@ -172,7 +172,7 @@ for mf in all_manifest_files:
     for e in entries:
         sha_expected = e.get("sha256", "")
         if "path" in e:
-            fpath = ROOT / e["path"]
+            fpath = ROOT / e.get("canonicalPath", e["path"])
         elif "pdfUrl" in e:
             prefix = "https://raw.githubusercontent.com/nandurpm/poly-pmna-pdf-files/main/"
             if e["pdfUrl"].startswith(prefix):

@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 import subprocess
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,6 +14,52 @@ NOTE = re.compile(r"notes/(2021|2026)/([A-Za-z0-9]+)/v([1-9][0-9]*)/\2\.pdf", re
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def alias_documents(root, physical):
+    """Retain each catalogue identity while serving one verified physical PDF."""
+    target = root / "manifests/pdf-aliases.json"
+    if not target.exists():
+        return []
+    manifest = json.loads(target.read_text(encoding="utf-8"))
+    if manifest.get("schemaVersion") != 1:
+        raise ValueError("Unsupported PDF alias schema")
+    records = manifest["aliases"]
+    paths = set()
+    for record in records:
+        for key in ("path", "canonicalPath"):
+            value = record[key]
+            p = PurePosixPath(value)
+            if (not value or p.is_absolute() or ".." in p.parts or "\\" in value
+                    or str(p) != value or p.suffix.lower() != ".pdf"
+                    or not (root / value).resolve().is_relative_to(root.resolve())):
+                raise ValueError(f"Unsafe PDF alias: {value}")
+        if record["path"] in paths or record["path"] == record["canonicalPath"]:
+            raise ValueError("Duplicate or self-referencing PDF alias")
+        paths.add(record["path"])
+    documents = []
+    verified = {}
+    for record in records:
+        original, canonical = record["path"], record["canonicalPath"]
+        if canonical in paths or canonical not in physical:
+            raise ValueError(f"Missing or chained PDF alias target: {canonical}")
+        if original in physical:
+            raise ValueError(f"Duplicate PDF was reintroduced: {original}")
+        if canonical not in verified:
+            path = root / canonical
+            digest = hashlib.sha1()
+            digest.update(b"blob " + str(path.stat().st_size).encode() + b"\0")
+            with path.open("rb") as stream:
+                while chunk := stream.read(1024 * 1024):
+                    digest.update(chunk)
+            verified[canonical] = (path.stat().st_size, digest.hexdigest())
+        if verified[canonical] != (record["bytes"], record["gitBlob"]):
+            raise ValueError(f"PDF alias content changed: {canonical}")
+        documents.append({"path": original,
+                          "title": PurePosixPath(original).stem.replace("-", " "),
+                          "pdfUrl": BASE + quote(canonical, safe="/"),
+                          "bytes": record["bytes"], "canonicalPath": canonical})
+    return documents
 
 
 def index(root=ROOT):
@@ -35,6 +81,9 @@ def index(root=ROOT):
             key = (revision, code.upper())
             if key not in latest or int(version) > latest[key][0]:
                 latest[key] = (int(version), path, item)
+
+    documents.extend(alias_documents(root, {item["path"]: item for item in documents}))
+    documents.sort(key=lambda item: item["path"])
 
     # Validate all selected notes before writing any manifests.
     manifests = {}

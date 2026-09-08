@@ -7,6 +7,8 @@ on:
       - '**.[pP][dD][fF]'
       - 'manifests/**'
       - 'tools/index_archive.py'
+      - 'tools/verify_pdf_deduplication.py'
+      - 'tests/**'
       - 'tools/import_legacy_pdfs.py'
       - '.github/workflows/notify-pdf-consumers.yml'
   workflow_dispatch:
@@ -38,7 +40,7 @@ jobs:
       - name: Install PDF validation tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Test archive indexing and preservation
-        run: python -m unittest discover -s tests -p 'test_archive_index.py' -v
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Configure archive commit author
         run: |
           git config user.name 'github-actions[bot]'
